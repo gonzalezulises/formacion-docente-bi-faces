@@ -1,6 +1,6 @@
 # Programa de Formacion Docente en Ciencia de Datos Aplicada y Business Intelligence
 
-**Facultad de Ciencias Economicas y Sociales (FACES) — Universidad de Carabobo**
+**Facultad de Ciencias Economicas y Sociales (FACES) — Universidad Catolica Andres Bello (UCAB)**
 
 ![Status](https://img.shields.io/badge/estado-en_desarrollo-yellow)
 ![Modulos](https://img.shields.io/badge/modulos-4-blue)
@@ -173,4 +173,4 @@ Este material esta licenciado bajo [MIT License](LICENSE).
 
 **Ulises Gonzalez** — [Rizoma](https://rizo.ma)
 
-Programa desarrollado para la Facultad de Ciencias Economicas y Sociales (FACES) de la Universidad de Carabobo.
+Programa desarrollado para la Facultad de Ciencias Economicas y Sociales (FACES) de la Universidad Catolica Andres Bello (UCAB).
