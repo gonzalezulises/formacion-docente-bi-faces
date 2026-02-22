@@ -63,6 +63,7 @@ def main():
     patterns = [
         os.path.join(REPO, 'modulo-*/notebooks/*.ipynb'),
         os.path.join(REPO, 'modulo-*/laboratorios/*soluciones*.ipynb'),
+        os.path.join(REPO, 'modulo-04-proyectos-integradores/templates/ejemplo_proyecto_completo.ipynb'),
     ]
 
     notebooks = []
