@@ -1,0 +1,531 @@
+anio,mes,pais_destino,producto,valor_fob_musd,volumen_miles_tm
+2015,1,India,Quimicos,140.49,196.2
+2015,1,Colombia,Petroleo,617.53,405.4
+2015,1,China,Manufactura,104.15,110.6
+2015,2,Brasil,Minerales,60.02,48.6
+2015,2,China,Petroleo,1076.32,1063.9
+2015,2,Italia,Petroleo,1323.39,2017.3
+2015,2,India,Minerales,147.04,177.0
+2015,2,Brasil,Petroleo,2033.58,2730.2
+2015,3,Brasil,Petroleo,1731.59,2954.9
+2015,3,Italia,Petroleo,1935.55,3453.6
+2015,3,China,Petroleo,1359.05,1166.7
+2015,3,Estados Unidos,Minerales,58.71,54.1
+2015,4,Italia,Quimicos,62.68,116.5
+2015,4,China,Petroleo,1173.82,816.6
+2015,4,Italia,Minerales,144.84,97.7
+2015,4,China,Petroleo,1771.67,2926.6
+2015,4,Turquia,Agricultura,155.9,272.0
+2015,5,India,Quimicos,64.35,39.4
+2015,5,Brasil,Quimicos,63.38,104.9
+2015,5,Turquia,Petroleo,1227.13,1810.4
+2015,6,Estados Unidos,Minerales,31.33,48.3
+2015,6,Espana,Petroleo,767.51,784.1
+2015,6,Turquia,Petroleo,582.39,563.1
+2015,6,Italia,Petroleo,1039.22,696.2
+2015,7,China,Manufactura,109.12,101.7
+2015,7,Italia,Petroleo,1737.34,2993.9
+2015,7,Turquia,Petroleo,469.24,408.8
+2015,8,Italia,Petroleo,1708.61,2453.1
+2015,8,Espana,Petroleo,507.42,544.5
+2015,8,Brasil,Petroleo,1778.91,3281.4
+2015,8,Estados Unidos,Agricultura,68.46,136.1
+2015,9,Colombia,Petroleo,630.19,1005.9
+2015,9,Turquia,Agricultura,81.04,54.6
+2015,9,Estados Unidos,Manufactura,122.44,192.6
+2015,9,Colombia,Petroleo,795.0,1199.4
+2015,10,Turquia,Manufactura,232.93,429.1
+2015,10,Italia,Petroleo,1195.3,2013.7
+2015,10,India,Petroleo,1382.44,1647.3
+2015,10,Espana,Petroleo,1036.88,1840.1
+2015,11,India,Petroleo,750.27,875.5
+2015,11,Espana,Petroleo,538.76,469.7
+2015,11,Italia,Petroleo,1215.84,2045.6
+2015,11,Brasil,Agricultura,147.99,194.7
+2015,11,Turquia,Petroleo,1807.22,3203.9
+2015,12,China,Petroleo,762.15,775.0
+2015,12,Turquia,Petroleo,1114.27,694.3
+2015,12,Espana,Manufactura,101.61,92.0
+2015,12,Estados Unidos,Petroleo,855.17,795.7
+2016,1,Brasil,Manufactura,144.07,93.5
+2016,1,India,Quimicos,169.1,201.5
+2016,1,Colombia,Manufactura,116.98,213.9
+2016,1,Brasil,Quimicos,66.37,43.7
+2016,1,China,Petroleo,858.66,1324.3
+2016,2,India,Agricultura,76.83,43.1
+2016,2,Colombia,Minerales,82.54,95.4
+2016,2,Italia,Petroleo,616.37,433.3
+2016,2,Espana,Agricultura,53.1,49.7
+2016,3,Turquia,Quimicos,45.8,74.4
+2016,3,Brasil,Quimicos,154.58,119.1
+2016,3,Colombia,Petroleo,1460.66,1698.5
+2016,3,China,Agricultura,35.85,58.5
+2016,3,Espana,Petroleo,928.91,560.4
+2016,4,Italia,Petroleo,1528.99,1320.5
+2016,4,Brasil,Petroleo,1964.67,2399.5
+2016,4,Turquia,Minerales,74.81,140.0
+2016,5,Colombia,Petroleo,1486.9,2605.3
+2016,5,India,Quimicos,191.03,300.6
+2016,5,Brasil,Minerales,106.89,73.1
+2016,6,Brasil,Petroleo,981.25,1898.6
+2016,6,Espana,Petroleo,1019.17,1122.4
+2016,6,China,Petroleo,1260.46,1458.8
+2016,6,China,Manufactura,69.11,63.0
+2016,6,Espana,Minerales,105.34,174.1
+2016,7,Estados Unidos,Quimicos,56.07,67.8
+2016,7,Brasil,Minerales,157.99,280.5
+2016,7,India,Petroleo,1609.89,2481.7
+2016,8,China,Agricultura,118.89,79.4
+2016,8,Estados Unidos,Petroleo,866.59,1477.1
+2016,8,Turquia,Petroleo,798.3,1158.7
+2016,8,Espana,Manufactura,39.29,44.2
+2016,9,Italia,Quimicos,42.12,41.4
+2016,9,India,Quimicos,108.76,86.9
+2016,9,Italia,Petroleo,909.05,1618.4
+2016,10,China,Agricultura,87.09,47.8
+2016,10,Brasil,Agricultura,198.18,331.0
+2016,10,Colombia,Minerales,142.42,192.6
+2016,10,India,Agricultura,109.89,209.6
+2016,11,Estados Unidos,Quimicos,154.27,272.7
+2016,11,Estados Unidos,Quimicos,152.43,143.7
+2016,11,Espana,Petroleo,1608.04,2904.2
+2016,11,Turquia,Agricultura,113.36,220.4
+2016,12,Brasil,Minerales,136.72,75.1
+2016,12,Brasil,Petroleo,606.17,701.2
+2016,12,Italia,Agricultura,125.69,67.1
+2016,12,China,Petroleo,1355.37,2613.9
+2016,12,Colombia,Manufactura,67.76,49.2
+2017,1,Brasil,Petroleo,567.92,414.1
+2017,1,China,Quimicos,105.26,94.4
+2017,1,Turquia,Quimicos,65.49,69.2
+2017,1,Espana,Petroleo,1113.5,1186.9
+2017,2,Brasil,Petroleo,1617.04,2859.2
+2017,2,China,Quimicos,80.28,116.7
+2017,2,Colombia,Petroleo,713.83,1061.9
+2017,2,Brasil,Petroleo,1200.94,938.4
+2017,3,Brasil,Petroleo,1504.69,1883.8
+2017,3,Brasil,Petroleo,1265.1,726.6
+2017,3,Turquia,Agricultura,128.64,126.2
+2017,4,Brasil,Manufactura,51.08,29.7
+2017,4,China,Petroleo,1284.83,1221.5
+2017,4,Italia,Petroleo,1238.95,1901.4
+2017,5,Espana,Petroleo,802.02,702.0
+2017,5,Italia,Petroleo,1308.49,2362.4
+2017,5,Espana,Manufactura,71.64,51.0
+2017,5,India,Minerales,214.29,191.7
+2017,5,China,Petroleo,1819.15,3441.1
+2017,6,Estados Unidos,Petroleo,2174.99,2143.0
+2017,6,Italia,Minerales,93.2,160.1
+2017,6,Colombia,Petroleo,1025.81,2000.4
+2017,6,Italia,Minerales,172.59,300.1
+2017,6,Colombia,Agricultura,90.58,93.4
+2017,7,Estados Unidos,Petroleo,1396.19,900.7
+2017,7,Brasil,Petroleo,1786.95,2834.4
+2017,7,China,Manufactura,127.91,95.7
+2017,7,Estados Unidos,Petroleo,1544.2,1043.0
+2017,7,Italia,Petroleo,1080.02,1511.3
+2017,8,Espana,Petroleo,1150.14,641.4
+2017,8,Turquia,Agricultura,127.49,104.3
+2017,8,India,Quimicos,113.9,145.4
+2017,9,Colombia,Minerales,27.93,55.1
+2017,9,India,Agricultura,132.66,179.7
+2017,9,Colombia,Petroleo,516.7,480.0
+2017,9,China,Petroleo,1736.55,2520.1
+2017,9,Colombia,Agricultura,221.75,412.2
+2017,10,Brasil,Petroleo,1960.96,1368.2
+2017,10,Brasil,Petroleo,663.77,332.8
+2017,10,Turquia,Petroleo,2071.5,2508.8
+2017,11,Espana,Petroleo,961.9,1458.8
+2017,11,Turquia,Agricultura,104.49,173.9
+2017,11,Colombia,Petroleo,1646.47,1158.1
+2017,11,China,Petroleo,1037.41,1006.5
+2017,12,Turquia,Petroleo,920.73,959.7
+2017,12,Italia,Petroleo,1763.42,2829.2
+2017,12,Estados Unidos,Quimicos,161.41,184.8
+2017,12,Espana,Petroleo,910.71,1697.5
+2018,1,Colombia,Quimicos,158.31,119.3
+2018,1,Italia,Minerales,24.1,48.0
+2018,1,Italia,Petroleo,1585.68,2490.9
+2018,1,India,Petroleo,845.28,1453.3
+2018,2,Espana,Quimicos,65.53,77.1
+2018,2,Estados Unidos,Manufactura,179.06,341.8
+2018,2,Colombia,Petroleo,726.88,877.1
+2018,2,Turquia,Manufactura,123.86,161.0
+2018,2,Espana,Manufactura,60.47,101.3
+2018,3,Italia,Petroleo,1202.06,2120.3
+2018,3,Espana,Petroleo,1171.94,748.7
+2018,3,Turquia,Quimicos,129.01,166.3
+2018,3,India,Petroleo,1938.63,3393.8
+2018,4,Turquia,Quimicos,123.7,207.5
+2018,4,Turquia,Minerales,198.01,229.1
+2018,4,Turquia,Petroleo,1427.01,1726.8
+2018,4,Brasil,Petroleo,834.66,1165.6
+2018,5,Turquia,Minerales,169.01,257.1
+2018,5,Espana,Petroleo,555.57,820.1
+2018,5,Estados Unidos,Petroleo,958.69,1114.2
+2018,5,India,Minerales,79.04,101.2
+2018,6,Italia,Petroleo,1397.26,1140.1
+2018,6,India,Petroleo,1055.97,798.4
+2018,6,China,Petroleo,998.2,1169.2
+2018,7,Colombia,Minerales,127.23,201.2
+2018,7,Italia,Petroleo,769.43,858.5
+2018,7,India,Quimicos,78.54,50.7
+2018,8,Italia,Minerales,121.34,205.8
+2018,8,China,Petroleo,501.93,709.3
+2018,8,Espana,Petroleo,533.6,963.2
+2018,8,Turquia,Petroleo,633.91,963.5
+2018,9,Turquia,Petroleo,1084.21,2092.3
+2018,9,China,Minerales,19.61,9.9
+2018,9,Brasil,Petroleo,1337.22,1983.7
+2018,9,China,Petroleo,596.12,585.7
+2018,10,Brasil,Quimicos,56.73,31.6
+2018,10,Turquia,Manufactura,165.78,202.5
+2018,10,Estados Unidos,Petroleo,1115.79,673.0
+2018,10,Colombia,Agricultura,98.72,132.8
+2018,10,Estados Unidos,Minerales,178.33,178.9
+2018,11,Brasil,Petroleo,1076.21,1838.7
+2018,11,Colombia,Manufactura,122.54,199.5
+2018,11,Estados Unidos,Manufactura,113.6,136.3
+2018,11,Colombia,Petroleo,858.73,458.7
+2018,11,Turquia,Agricultura,164.46,211.8
+2018,12,Espana,Petroleo,1200.13,635.1
+2018,12,India,Minerales,168.83,250.7
+2018,12,China,Petroleo,718.97,1157.9
+2018,12,China,Quimicos,194.03,210.5
+2019,1,Italia,Quimicos,32.28,55.7
+2019,1,China,Quimicos,86.85,58.4
+2019,1,Brasil,Petroleo,1063.4,1298.3
+2019,1,Estados Unidos,Petroleo,1696.83,2678.7
+2019,2,Brasil,Manufactura,139.1,243.2
+2019,2,Espana,Minerales,164.66,217.1
+2019,2,Brasil,Minerales,151.24,139.0
+2019,3,Estados Unidos,Petroleo,1321.63,917.4
+2019,3,Italia,Manufactura,196.45,223.2
+2019,3,Brasil,Petroleo,629.83,390.0
+2019,3,Italia,Petroleo,1579.06,2621.0
+2019,3,Estados Unidos,Petroleo,1216.81,642.9
+2019,4,Turquia,Manufactura,29.9,54.6
+2019,4,Brasil,Agricultura,122.32,229.2
+2019,4,Turquia,Minerales,154.5,195.7
+2019,4,China,Manufactura,28.77,17.6
+2019,4,Estados Unidos,Minerales,76.03,93.4
+2019,5,Turquia,Petroleo,1336.06,1030.1
+2019,5,India,Petroleo,1163.21,1762.1
+2019,5,Brasil,Petroleo,525.73,796.3
+2019,5,Estados Unidos,Minerales,33.94,22.1
+2019,5,Brasil,Minerales,20.12,27.5
+2019,6,Espana,Petroleo,889.04,526.5
+2019,6,China,Petroleo,665.43,1170.9
+2019,6,Brasil,Quimicos,160.3,262.3
+2019,6,Brasil,Petroleo,1187.61,686.2
+2019,6,Colombia,Petroleo,1679.25,3237.4
+2019,7,China,Minerales,156.09,128.2
+2019,7,Colombia,Manufactura,49.91,46.0
+2019,7,Colombia,Petroleo,421.65,609.1
+2019,7,Estados Unidos,Quimicos,50.61,47.7
+2019,7,Turquia,Minerales,201.65,182.9
+2019,8,Turquia,Petroleo,454.38,370.5
+2019,8,Turquia,Petroleo,1428.58,1936.8
+2019,8,Turquia,Petroleo,504.34,909.4
+2019,8,Italia,Petroleo,1461.6,1530.6
+2019,9,Estados Unidos,Petroleo,1421.96,2275.2
+2019,9,Espana,Minerales,71.69,73.4
+2019,9,Turquia,Agricultura,47.49,50.5
+2019,9,Turquia,Petroleo,1650.51,1385.0
+2019,9,India,Petroleo,1480.94,1002.0
+2019,10,India,Petroleo,669.02,1331.9
+2019,10,China,Quimicos,88.84,171.0
+2019,10,Colombia,Petroleo,1300.76,2294.7
+2019,10,India,Quimicos,106.55,102.0
+2019,11,Espana,Petroleo,579.94,366.9
+2019,11,Estados Unidos,Petroleo,1464.83,2223.8
+2019,11,Turquia,Petroleo,493.35,513.0
+2019,12,China,Petroleo,666.95,1009.3
+2019,12,India,Petroleo,1097.07,2188.3
+2019,12,India,Petroleo,956.34,1753.6
+2020,1,Colombia,Minerales,83.38,121.1
+2020,1,Turquia,Petroleo,402.75,317.7
+2020,1,Brasil,Petroleo,744.12,924.8
+2020,1,Brasil,Petroleo,1400.26,2201.5
+2020,1,Brasil,Minerales,123.72,63.8
+2020,2,Colombia,Petroleo,1447.67,1839.6
+2020,2,Turquia,Quimicos,143.18,151.8
+2020,2,China,Petroleo,600.31,445.1
+2020,2,Italia,Petroleo,1159.87,1209.8
+2020,3,Turquia,Manufactura,139.87,118.7
+2020,3,China,Agricultura,41.35,27.7
+2020,3,Brasil,Quimicos,131.71,218.7
+2020,3,India,Petroleo,1281.16,938.9
+2020,4,India,Quimicos,147.04,224.5
+2020,4,Estados Unidos,Quimicos,72.8,79.0
+2020,4,Italia,Petroleo,1051.71,2087.1
+2020,4,Turquia,Manufactura,65.65,50.5
+2020,5,Estados Unidos,Manufactura,25.47,39.1
+2020,5,India,Petroleo,640.5,850.8
+2020,5,Espana,Petroleo,1063.46,712.2
+2020,6,Espana,Petroleo,715.63,715.5
+2020,6,Italia,Agricultura,105.82,190.8
+2020,6,Estados Unidos,Petroleo,1375.69,2731.4
+2020,7,Colombia,Petroleo,758.66,738.4
+2020,7,India,Petroleo,1168.46,2252.4
+2020,7,Italia,Petroleo,470.26,726.2
+2020,8,Brasil,Agricultura,44.31,58.0
+2020,8,Italia,Minerales,85.36,94.0
+2020,8,Brasil,Manufactura,77.73,142.8
+2020,9,Espana,Petroleo,977.57,601.4
+2020,9,Colombia,Quimicos,86.75,149.2
+2020,9,Turquia,Agricultura,25.58,42.8
+2020,9,Italia,Petroleo,1107.56,618.0
+2020,9,Colombia,Quimicos,58.86,65.2
+2020,10,Italia,Quimicos,168.8,330.0
+2020,10,Brasil,Manufactura,162.68,274.0
+2020,10,Colombia,Quimicos,82.39,82.7
+2020,10,China,Agricultura,80.77,115.3
+2020,10,Espana,Petroleo,1140.56,1313.6
+2020,11,India,Manufactura,205.07,140.3
+2020,11,China,Petroleo,678.28,564.5
+2020,11,Turquia,Quimicos,130.13,163.0
+2020,11,Italia,Petroleo,863.78,804.8
+2020,12,China,Petroleo,672.17,1134.9
+2020,12,Brasil,Quimicos,118.8,236.7
+2020,12,China,Minerales,117.79,189.4
+2020,12,Espana,Manufactura,179.02,274.1
+2020,12,India,Minerales,228.35,452.1
+2021,1,Italia,Minerales,159.04,120.9
+2021,1,Turquia,Manufactura,177.13,343.0
+2021,1,China,Petroleo,1022.26,1327.4
+2021,2,India,Minerales,191.51,168.4
+2021,2,Estados Unidos,Petroleo,463.95,468.7
+2021,2,Brasil,Petroleo,950.24,819.9
+2021,2,Colombia,Petroleo,839.4,1599.7
+2021,2,Italia,Minerales,137.88,219.3
+2021,3,Italia,Agricultura,111.23,177.5
+2021,3,Estados Unidos,Quimicos,135.14,193.5
+2021,3,Turquia,Minerales,154.98,170.2
+2021,3,Italia,Petroleo,605.74,858.6
+2021,3,Brasil,Petroleo,353.6,688.0
+2021,4,China,Manufactura,187.13,308.4
+2021,4,China,Petroleo,1289.79,1697.4
+2021,4,India,Quimicos,165.4,237.0
+2021,4,Colombia,Petroleo,1008.21,1311.8
+2021,5,Colombia,Petroleo,413.6,490.1
+2021,5,Estados Unidos,Agricultura,149.07,109.7
+2021,5,Turquia,Petroleo,642.29,423.5
+2021,5,Italia,Petroleo,782.53,824.1
+2021,6,Estados Unidos,Manufactura,140.36,105.3
+2021,6,India,Petroleo,1044.36,1778.7
+2021,6,Espana,Petroleo,427.93,837.9
+2021,6,India,Petroleo,1374.16,1330.9
+2021,7,Brasil,Petroleo,498.76,840.6
+2021,7,Brasil,Petroleo,986.06,1683.3
+2021,7,Espana,Manufactura,80.86,129.9
+2021,7,China,Petroleo,480.76,307.4
+2021,7,India,Agricultura,43.42,46.4
+2021,8,Brasil,Petroleo,797.24,1439.1
+2021,8,Estados Unidos,Petroleo,834.88,1362.8
+2021,8,Turquia,Agricultura,168.56,123.6
+2021,8,Espana,Petroleo,643.48,970.7
+2021,8,Turquia,Petroleo,1138.05,2241.2
+2021,9,Turquia,Petroleo,1273.17,1468.7
+2021,9,Brasil,Petroleo,1276.07,1580.0
+2021,9,India,Petroleo,531.18,434.0
+2021,10,China,Agricultura,61.81,86.0
+2021,10,Espana,Manufactura,21.66,31.8
+2021,10,Estados Unidos,Petroleo,697.82,1114.1
+2021,10,Estados Unidos,Agricultura,33.24,40.1
+2021,10,Espana,Petroleo,985.13,1394.3
+2021,11,Colombia,Quimicos,64.36,90.8
+2021,11,Brasil,Petroleo,429.8,562.0
+2021,11,China,Petroleo,1011.3,1638.3
+2021,11,China,Petroleo,558.86,1091.7
+2021,11,Colombia,Agricultura,137.23,181.9
+2021,12,Espana,Petroleo,567.8,659.6
+2021,12,India,Manufactura,154.85,90.2
+2021,12,Brasil,Minerales,170.65,319.6
+2021,12,Estados Unidos,Quimicos,50.92,69.0
+2021,12,China,Petroleo,1103.81,1397.3
+2022,1,India,Quimicos,86.63,83.3
+2022,1,Estados Unidos,Manufactura,41.69,32.1
+2022,1,Turquia,Petroleo,526.29,317.3
+2022,1,Estados Unidos,Petroleo,344.13,182.2
+2022,2,Italia,Quimicos,89.65,51.6
+2022,2,Turquia,Petroleo,648.9,1087.9
+2022,2,Turquia,Manufactura,189.39,277.7
+2022,2,Colombia,Petroleo,674.37,357.6
+2022,3,Colombia,Petroleo,708.07,1179.7
+2022,3,China,Petroleo,574.28,1067.6
+2022,3,India,Manufactura,117.88,157.9
+2022,3,Brasil,Agricultura,40.42,39.1
+2022,4,China,Petroleo,640.25,922.9
+2022,4,Estados Unidos,Petroleo,1023.18,1264.6
+2022,4,Colombia,Agricultura,61.89,108.4
+2022,5,Espana,Minerales,201.21,200.7
+2022,5,Estados Unidos,Petroleo,400.65,518.0
+2022,5,Estados Unidos,Petroleo,443.04,768.9
+2022,6,Turquia,Petroleo,807.49,1606.4
+2022,6,Estados Unidos,Petroleo,628.11,758.7
+2022,6,China,Petroleo,600.64,522.9
+2022,6,Estados Unidos,Petroleo,640.01,362.8
+2022,6,Italia,Petroleo,791.89,457.1
+2022,7,Estados Unidos,Petroleo,651.23,1278.5
+2022,7,India,Petroleo,425.48,790.2
+2022,7,Espana,Petroleo,1046.16,1869.4
+2022,7,China,Petroleo,999.59,1961.5
+2022,7,Turquia,Agricultura,184.16,166.2
+2022,8,China,Petroleo,936.18,1104.4
+2022,8,Brasil,Petroleo,795.34,1119.1
+2022,8,Brasil,Agricultura,33.86,34.0
+2022,8,Colombia,Quimicos,70.88,74.2
+2022,8,India,Petroleo,764.53,991.5
+2022,9,Turquia,Petroleo,534.91,954.9
+2022,9,Italia,Petroleo,927.49,746.6
+2022,9,Brasil,Petroleo,866.17,753.4
+2022,9,Brasil,Quimicos,123.42,100.3
+2022,10,Turquia,Minerales,113.28,99.2
+2022,10,Turquia,Petroleo,699.77,361.0
+2022,10,China,Quimicos,130.4,104.7
+2022,11,Turquia,Agricultura,173.31,139.7
+2022,11,China,Minerales,145.44,269.9
+2022,11,India,Petroleo,222.9,439.6
+2022,12,Espana,Petroleo,409.48,251.4
+2022,12,India,Minerales,98.56,65.3
+2022,12,Brasil,Petroleo,316.54,392.9
+2022,12,Brasil,Agricultura,42.4,77.7
+2022,12,Italia,Quimicos,103.49,72.8
+2023,1,India,Minerales,158.99,120.4
+2023,1,Brasil,Minerales,95.75,118.1
+2023,1,Estados Unidos,Petroleo,361.27,536.0
+2023,2,Colombia,Manufactura,172.68,320.0
+2023,2,Espana,Quimicos,210.86,307.7
+2023,2,Colombia,Petroleo,233.71,255.1
+2023,2,Espana,Petroleo,603.82,576.9
+2023,2,China,Petroleo,260.87,436.8
+2023,3,Colombia,Manufactura,95.66,189.5
+2023,3,Brasil,Manufactura,155.62,202.2
+2023,3,Estados Unidos,Minerales,82.14,149.4
+2023,3,Turquia,Petroleo,419.52,832.0
+2023,3,Brasil,Manufactura,169.04,161.2
+2023,4,Espana,Petroleo,578.48,436.7
+2023,4,China,Petroleo,817.76,1600.0
+2023,4,Turquia,Petroleo,498.41,856.2
+2023,4,Italia,Petroleo,484.05,276.6
+2023,5,Brasil,Petroleo,234.2,257.0
+2023,5,China,Petroleo,273.58,377.7
+2023,5,Estados Unidos,Quimicos,165.73,186.6
+2023,5,Italia,Minerales,225.8,370.6
+2023,5,China,Agricultura,48.23,58.4
+2023,6,Italia,Petroleo,670.2,530.4
+2023,6,Italia,Petroleo,477.88,730.4
+2023,6,Estados Unidos,Manufactura,187.58,208.8
+2023,7,Turquia,Agricultura,122.79,168.2
+2023,7,Colombia,Petroleo,581.08,381.4
+2023,7,Italia,Petroleo,250.99,392.2
+2023,8,Turquia,Petroleo,596.44,652.8
+2023,8,Estados Unidos,Petroleo,240.75,153.7
+2023,8,Colombia,Petroleo,419.63,449.2
+2023,8,Colombia,Minerales,190.55,187.9
+2023,9,India,Petroleo,899.84,892.4
+2023,9,Colombia,Petroleo,246.89,310.8
+2023,9,Espana,Petroleo,355.23,529.5
+2023,9,Estados Unidos,Petroleo,455.96,600.5
+2023,10,Italia,Manufactura,169.0,107.3
+2023,10,Espana,Petroleo,526.05,265.3
+2023,10,Brasil,Petroleo,561.39,438.3
+2023,10,Colombia,Petroleo,616.6,877.9
+2023,11,Colombia,Agricultura,177.1,293.7
+2023,11,Espana,Petroleo,412.93,763.3
+2023,11,China,Quimicos,110.05,94.6
+2023,11,Brasil,Agricultura,53.49,62.5
+2023,11,India,Petroleo,879.44,655.2
+2023,12,China,Petroleo,625.22,1186.6
+2023,12,Italia,Petroleo,729.98,496.3
+2023,12,India,Quimicos,62.02,107.0
+2024,1,India,Petroleo,531.29,710.0
+2024,1,India,Petroleo,461.64,365.6
+2024,1,China,Petroleo,174.86,301.2
+2024,1,India,Petroleo,196.05,313.5
+2024,1,Estados Unidos,Petroleo,297.46,194.3
+2024,2,Italia,Quimicos,133.99,207.4
+2024,2,Turquia,Petroleo,461.29,773.9
+2024,2,Estados Unidos,Quimicos,105.41,59.0
+2024,2,Turquia,Petroleo,427.59,586.8
+2024,3,Espana,Petroleo,511.71,835.3
+2024,3,Brasil,Agricultura,61.35,60.6
+2024,3,Italia,Petroleo,417.59,309.8
+2024,3,Brasil,Petroleo,210.83,262.7
+2024,4,India,Manufactura,34.99,32.3
+2024,4,China,Petroleo,188.52,99.9
+2024,4,China,Agricultura,48.15,29.5
+2024,5,Colombia,Manufactura,53.17,26.9
+2024,5,China,Manufactura,30.22,50.3
+2024,5,Italia,Petroleo,322.24,516.5
+2024,5,Colombia,Manufactura,148.88,180.8
+2024,6,Turquia,Petroleo,522.3,830.2
+2024,6,Espana,Petroleo,317.97,291.3
+2024,6,Espana,Petroleo,508.74,309.7
+2024,7,India,Manufactura,130.78,155.2
+2024,7,Estados Unidos,Petroleo,602.34,935.0
+2024,7,Colombia,Minerales,167.19,215.1
+2024,7,Turquia,Petroleo,648.72,490.7
+2024,8,Turquia,Agricultura,68.63,87.9
+2024,8,Espana,Minerales,37.43,36.1
+2024,8,China,Petroleo,207.68,232.2
+2024,9,Brasil,Minerales,174.3,134.6
+2024,9,Turquia,Petroleo,517.24,511.5
+2024,9,Espana,Petroleo,482.39,835.7
+2024,9,India,Minerales,30.28,31.6
+2024,9,China,Petroleo,386.69,483.4
+2024,10,Espana,Manufactura,58.28,32.0
+2024,10,China,Manufactura,184.59,113.9
+2024,10,Estados Unidos,Agricultura,81.59,156.6
+2024,11,China,Manufactura,180.03,182.2
+2024,11,Italia,Manufactura,115.67,120.9
+2024,11,China,Minerales,91.6,146.4
+2024,12,Brasil,Minerales,84.27,60.3
+2024,12,Turquia,Petroleo,413.92,741.8
+2024,12,Brasil,Petroleo,443.18,715.7
+2024,12,Turquia,Petroleo,191.41,257.1
+2025,1,India,Petroleo,633.27,899.4
+2025,1,Espana,Petroleo,366.24,391.1
+2025,1,Espana,Petroleo,609.58,940.0
+2025,1,Espana,Petroleo,350.66,523.1
+2025,2,Turquia,Agricultura,49.73,88.9
+2025,2,Colombia,Petroleo,270.45,353.1
+2025,2,Estados Unidos,Petroleo,271.31,350.8
+2025,3,Colombia,Agricultura,56.12,107.9
+2025,3,Brasil,Agricultura,128.05,145.9
+2025,3,China,Manufactura,130.21,230.2
+2025,4,Italia,Petroleo,211.29,133.9
+2025,4,Italia,Manufactura,89.92,91.0
+2025,4,Espana,Agricultura,90.25,96.3
+2025,5,India,Petroleo,177.37,127.7
+2025,5,Turquia,Quimicos,27.81,28.7
+2025,5,Espana,Petroleo,253.71,417.0
+2025,5,Espana,Petroleo,556.9,827.5
+2025,6,Turquia,Manufactura,75.64,96.9
+2025,6,Colombia,Petroleo,269.99,452.4
+2025,6,Espana,Quimicos,73.69,131.2
+2025,6,India,Quimicos,142.13,185.9
+2025,6,China,Quimicos,204.34,362.0
+2025,7,India,Manufactura,127.03,222.7
+2025,7,Turquia,Manufactura,93.44,114.9
+2025,7,India,Minerales,218.2,282.5
+2025,8,Turquia,Petroleo,393.98,592.0
+2025,8,Brasil,Manufactura,89.93,172.2
+2025,8,Italia,Agricultura,143.44,103.4
+2025,9,Estados Unidos,Petroleo,522.77,918.8
+2025,9,Brasil,Petroleo,246.96,369.2
+2025,9,Turquia,Petroleo,395.81,757.1
+2025,10,Italia,Manufactura,51.02,100.2
+2025,10,Brasil,Minerales,160.65,168.7
+2025,10,Estados Unidos,Manufactura,174.15,160.8
+2025,10,China,Manufactura,54.21,86.3
+2025,11,India,Minerales,24.79,28.6
+2025,11,China,Quimicos,123.06,157.6
+2025,11,Brasil,Petroleo,221.51,202.7
+2025,11,Colombia,Manufactura,49.96,27.2
+2025,12,Turquia,Petroleo,628.96,973.5
+2025,12,Italia,Minerales,19.65,35.0
+2025,12,India,Petroleo,672.79,758.9
+2025,12,Italia,Quimicos,205.63,258.3
+2025,12,Estados Unidos,Petroleo,472.6,337.1
