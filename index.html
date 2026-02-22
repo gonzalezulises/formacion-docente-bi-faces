@@ -84,11 +84,14 @@
 
         /* ========== Background Patterns — UCAB Brand ========== */
         .pattern-bg {
-            background: linear-gradient(135deg, #001f3d 0%, var(--color-primary) 50%, #004170 100%);
-            background-image: url("data:image/svg+xml,%3Csvg width='60' height='60' viewBox='0 0 60 60' xmlns='http://www.w3.org/2000/svg'%3E%3Cg fill='none' fill-rule='evenodd'%3E%3Cg fill='%2340b4e5' fill-opacity='0.06'%3E%3Cpath d='M36 34v-4h-2v4h-4v2h4v4h2v-4h4v-2h-4zm0-30V0h-2v4h-4v2h4v4h2V6h4V4h-4zM6 34v-4H4v4H0v2h4v4h2v-4h4v-2H6zM6 4V0H4v4H0v2h4v4h2V6h4V4H6z'/%3E%3C/g%3E%3C/g%3E%3C/svg%3E");
+            background-color: var(--color-primary);
+            background-image:
+                url("data:image/svg+xml,%3Csvg width='60' height='60' viewBox='0 0 60 60' xmlns='http://www.w3.org/2000/svg'%3E%3Cg fill='none' fill-rule='evenodd'%3E%3Cg fill='%2340b4e5' fill-opacity='0.06'%3E%3Cpath d='M36 34v-4h-2v4h-4v2h4v4h2v-4h4v-2h-4zm0-30V0h-2v4h-4v2h4v4h2V6h4V4h-4zM6 34v-4H4v4H0v2h4v4h2v-4h4v-2H6zM6 4V0H4v4H0v2h4v4h2V6h4V4H6z'/%3E%3C/g%3E%3C/g%3E%3C/svg%3E"),
+                linear-gradient(135deg, #001f3d 0%, var(--color-primary) 50%, #004170 100%);
         }
 
         .pattern-bg-light {
+            background-color: var(--color-bg-light);
             background-image: url("data:image/svg+xml,%3Csvg width='40' height='40' viewBox='0 0 40 40' xmlns='http://www.w3.org/2000/svg'%3E%3Cg fill='none' fill-rule='evenodd'%3E%3Cg fill='%2340b4e5' fill-opacity='0.04'%3E%3Cpath d='M20 20.5V18H0v-2h20v-2H0v-2h20v-2H0V8h20V6H0V4h20V2H0V0h22v20h2V0h2v20h2V0h2v20h2V0h2v20h2V0h2v22H20v-1.5zM0 20h2v20H0V20zm4 0h2v20H4V20zm4 0h2v20H8V20zm4 0h2v20h-2V20zm4 0h2v20h-2V20z'/%3E%3C/g%3E%3C/g%3E%3C/svg%3E");
         }
 
@@ -768,6 +771,42 @@
             margin: 16px auto;
         }
 
+        /* ========== Rizoma Attribution ========== */
+        .made-by {
+            background: #f0ede5;
+            padding: 32px 0;
+            text-align: center;
+            border-top: 1px solid #e2ddd2;
+        }
+
+        .made-by-inner {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            gap: 12px;
+            flex-wrap: wrap;
+        }
+
+        .made-by-label {
+            font-family: var(--font-body);
+            font-size: 0.82rem;
+            color: #6b7c8d;
+            letter-spacing: 0.04em;
+            text-transform: uppercase;
+            font-weight: 600;
+        }
+
+        .made-by-logo {
+            height: 22px;
+            width: auto;
+            opacity: 0.75;
+            transition: opacity 0.2s;
+        }
+
+        .made-by a:hover .made-by-logo {
+            opacity: 1;
+        }
+
         /* ========== Responsive ========== */
         @media (max-width: 900px) {
             .modulos-grid {
@@ -1161,10 +1200,22 @@
         </div>
     </section>
 
+    <!-- ========== Rizoma Attribution ========== -->
+    <div class="made-by">
+        <div class="container">
+            <div class="made-by-inner">
+                <span class="made-by-label">Dise&ntilde;ado y desarrollado por</span>
+                <a href="https://rizo.ma" target="_blank" rel="noopener">
+                    <img src="https://raw.githubusercontent.com/gonzalezulises/rizoma-ui/main/MARCA/PNG/ISOLOGOTIPO/opcion_plenos-color_horizontal.png" alt="Rizoma" class="made-by-logo">
+                </a>
+            </div>
+        </div>
+    </div>
+
     <!-- ========== Footer ========== -->
     <footer class="footer">
         <div class="container">
-            <p>Programa desarrollado por <a href="https://rizo.ma" target="_blank" rel="noopener">Rizoma</a> para <a href="https://www.ucab.edu.ve/informacion-institucional/acerca-de-la-universidad/facultades/ciencias-economicas-y-sociales/" target="_blank" rel="noopener">FACES-UCAB</a></p>
+            <p>Programa para la <a href="https://www.ucab.edu.ve/informacion-institucional/acerca-de-la-universidad/facultades/ciencias-economicas-y-sociales/" target="_blank" rel="noopener">Facultad de Ciencias Econ&oacute;micas y Sociales</a> &mdash; <a href="https://www.ucab.edu.ve" target="_blank" rel="noopener">UCAB</a></p>
             <div class="footer-divider"></div>
             <div class="footer-links">
                 <a href="https://github.com/gonzalezulises/formacion-docente-bi-faces" target="_blank" rel="noopener">
@@ -1172,7 +1223,7 @@
                     Repositorio en GitHub
                 </a>
             </div>
-            <p style="margin-top:16px;font-size:0.8rem;opacity:0.6">&copy; 2026 Ulises Gonz&aacute;lez &mdash; Rizoma. Licencia MIT.</p>
+            <p style="margin-top:16px;font-size:0.8rem;opacity:0.6">&copy; 2026 <a href="https://rizo.ma" target="_blank" rel="noopener">Rizoma</a>. Licencia MIT.</p>
         </div>
     </footer>
 
