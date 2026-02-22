@@ -3,13 +3,13 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Programa de Formaci&oacute;n Docente en Ciencia de Datos y BI &mdash; FACES-UC</title>
-    <meta name="description" content="Programa de formaci&oacute;n dirigido a docentes universitarios de FACES-UC en ciencia de datos aplicada y Business Intelligence. 32 horas, 4 m&oacute;dulos, Python + Power BI.">
+    <title>Programa de Formaci&oacute;n Docente en Ciencia de Datos y BI &mdash; FACES UCAB</title>
+    <meta name="description" content="Programa de formaci&oacute;n dirigido a docentes universitarios de FACES-UCAB en ciencia de datos aplicada y Business Intelligence. 32 horas, 4 m&oacute;dulos, Python + Power BI.">
     <meta name="author" content="Ulises Gonz&aacute;lez &mdash; Rizoma">
-    <meta name="keywords" content="ciencia de datos, business intelligence, FACES, Universidad Catolica Andres Bello (UCAB), formaci&oacute;n docente, Python, Power BI, machine learning">
+    <meta name="keywords" content="ciencia de datos, business intelligence, FACES, UCAB, Universidad Cat&oacute;lica Andr&eacute;s Bello, formaci&oacute;n docente, Python, Power BI, machine learning">
 
     <!-- Open Graph -->
-    <meta property="og:title" content="Formaci&oacute;n Docente en Ciencia de Datos y BI &mdash; FACES-UC">
+    <meta property="og:title" content="Formaci&oacute;n Docente en Ciencia de Datos y BI &mdash; FACES UCAB">
     <meta property="og:description" content="Programa de 32 horas para docentes universitarios: Python, Power BI, Machine Learning y proyectos aplicados.">
     <meta property="og:type" content="website">
     <meta property="og:url" content="https://gonzalezulises.github.io/formacion-docente-bi-faces/">
@@ -18,29 +18,30 @@
     <!-- Favicon -->
     <link rel="icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><text y='.9em' font-size='90'>📊</text></svg>">
 
-    <!-- Google Fonts -->
+    <!-- Google Fonts — UCAB typography: Poppins + Open Sans -->
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700;800&family=Open+Sans:wght@400;500;600;700&display=swap" rel="stylesheet">
 
     <style>
-        /* ========== CSS Custom Properties ========== */
+        /* ========== CSS Custom Properties — UCAB Brand ========== */
         :root {
-            --color-primary: #1a365d;
-            --color-secondary: #2b6cb0;
-            --color-accent: #ed8936;
-            --color-accent-hover: #dd6b20;
-            --color-bg-light: #f7fafc;
+            --color-primary: #003056;
+            --color-secondary: #40b4e5;
+            --color-accent: #a18228;
+            --color-accent-hover: #866c1a;
+            --color-bg-light: #f5f8fa;
             --color-bg-white: #ffffff;
-            --color-text: #2d3748;
-            --color-text-light: #718096;
+            --color-text: #2c3e50;
+            --color-text-light: #6b7c8d;
             --color-text-inverse: #ffffff;
-            --color-border: #e2e8f0;
-            --color-mod1: #2b6cb0;
-            --color-mod2: #2f855a;
-            --color-mod3: #9b2c2c;
-            --color-mod4: #ed8936;
-            --font-family: 'Inter', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
+            --color-border: #dce4ec;
+            --color-mod1: #40b4e5;
+            --color-mod2: #a18228;
+            --color-mod3: #2c7a4b;
+            --color-mod4: #e06840;
+            --font-heading: 'Poppins', -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif;
+            --font-body: 'Open Sans', -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif;
             --shadow-sm: 0 1px 3px rgba(0,0,0,0.08);
             --shadow-md: 0 4px 12px rgba(0,0,0,0.1);
             --shadow-lg: 0 8px 30px rgba(0,0,0,0.12);
@@ -64,25 +65,31 @@
         }
 
         body {
-            font-family: var(--font-family);
+            font-family: var(--font-body);
             color: var(--color-text);
             line-height: 1.7;
             background-color: var(--color-bg-light);
             -webkit-font-smoothing: antialiased;
         }
 
+        h1, h2, h3, h4, h5, h6,
+        .nav-brand, .hero-label, .badge, .mod-badge,
+        .highlight-number, .contenido-number {
+            font-family: var(--font-heading);
+        }
+
         img { max-width: 100%; display: block; }
         a { color: var(--color-secondary); text-decoration: none; transition: color 0.2s; }
-        a:hover { color: var(--color-accent); }
+        a:hover { color: var(--color-primary); }
 
-        /* ========== SVG Background Pattern ========== */
+        /* ========== Background Patterns — UCAB Brand ========== */
         .pattern-bg {
-            background-color: var(--color-primary);
-            background-image: url("data:image/svg+xml,%3Csvg width='60' height='60' viewBox='0 0 60 60' xmlns='http://www.w3.org/2000/svg'%3E%3Cg fill='none' fill-rule='evenodd'%3E%3Cg fill='%23ffffff' fill-opacity='0.05'%3E%3Cpath d='M36 34v-4h-2v4h-4v2h4v4h2v-4h4v-2h-4zm0-30V0h-2v4h-4v2h4v4h2V6h4V4h-4zM6 34v-4H4v4H0v2h4v4h2v-4h4v-2H6zM6 4V0H4v4H0v2h4v4h2V6h4V4H6z'/%3E%3C/g%3E%3C/g%3E%3C/svg%3E");
+            background: linear-gradient(135deg, #001f3d 0%, var(--color-primary) 50%, #004170 100%);
+            background-image: url("data:image/svg+xml,%3Csvg width='60' height='60' viewBox='0 0 60 60' xmlns='http://www.w3.org/2000/svg'%3E%3Cg fill='none' fill-rule='evenodd'%3E%3Cg fill='%2340b4e5' fill-opacity='0.06'%3E%3Cpath d='M36 34v-4h-2v4h-4v2h4v4h2v-4h4v-2h-4zm0-30V0h-2v4h-4v2h4v4h2V6h4V4h-4zM6 34v-4H4v4H0v2h4v4h2v-4h4v-2H6zM6 4V0H4v4H0v2h4v4h2V6h4V4H6z'/%3E%3C/g%3E%3C/g%3E%3C/svg%3E");
         }
 
         .pattern-bg-light {
-            background-image: url("data:image/svg+xml,%3Csvg width='40' height='40' viewBox='0 0 40 40' xmlns='http://www.w3.org/2000/svg'%3E%3Cg fill='none' fill-rule='evenodd'%3E%3Cg fill='%231a365d' fill-opacity='0.03'%3E%3Cpath d='M20 20.5V18H0v-2h20v-2H0v-2h20v-2H0V8h20V6H0V4h20V2H0V0h22v20h2V0h2v20h2V0h2v20h2V0h2v20h2V0h2v22H20v-1.5zM0 20h2v20H0V20zm4 0h2v20H4V20zm4 0h2v20H8V20zm4 0h2v20h-2V20zm4 0h2v20h-2V20z'/%3E%3C/g%3E%3C/g%3E%3C/svg%3E");
+            background-image: url("data:image/svg+xml,%3Csvg width='40' height='40' viewBox='0 0 40 40' xmlns='http://www.w3.org/2000/svg'%3E%3Cg fill='none' fill-rule='evenodd'%3E%3Cg fill='%2340b4e5' fill-opacity='0.04'%3E%3Cpath d='M20 20.5V18H0v-2h20v-2H0v-2h20v-2H0V8h20V6H0V4h20V2H0V0h22v20h2V0h2v20h2V0h2v20h2V0h2v20h2V0h2v22H20v-1.5zM0 20h2v20H0V20zm4 0h2v20H4V20zm4 0h2v20H8V20zm4 0h2v20h-2V20zm4 0h2v20h-2V20z'/%3E%3C/g%3E%3C/g%3E%3C/svg%3E");
         }
 
         /* ========== Layout ========== */
@@ -126,13 +133,14 @@
             position: sticky;
             top: 0;
             z-index: 1000;
-            background: rgba(26, 54, 93, 0.97);
+            background: rgba(0, 48, 86, 0.97);
             backdrop-filter: blur(12px);
             -webkit-backdrop-filter: blur(12px);
             height: var(--nav-height);
             display: flex;
             align-items: center;
             box-shadow: 0 1px 8px rgba(0,0,0,0.15);
+            border-bottom: 2px solid var(--color-accent);
         }
 
         .navbar .container {
@@ -174,7 +182,7 @@
 
         .nav-links a:hover {
             color: #fff;
-            background: rgba(255,255,255,0.1);
+            background: rgba(64,180,229,0.15);
         }
 
         .nav-toggle {
@@ -216,10 +224,19 @@
             z-index: 1;
         }
 
+        .hero-logo {
+            width: 220px;
+            height: auto;
+            margin: 0 auto 28px;
+            filter: brightness(0) invert(1);
+            opacity: 0.92;
+        }
+
         .hero-label {
             display: inline-block;
-            background: rgba(255,255,255,0.12);
-            color: rgba(255,255,255,0.9);
+            background: rgba(161,130,40,0.25);
+            border: 1px solid rgba(161,130,40,0.4);
+            color: #e8d48a;
             font-size: 0.8rem;
             font-weight: 600;
             letter-spacing: 0.08em;
@@ -262,19 +279,20 @@
             gap: 8px;
             background: var(--color-accent);
             color: #fff;
+            font-family: var(--font-heading);
             font-size: 1rem;
             font-weight: 600;
             padding: 14px 32px;
             border-radius: 50px;
             transition: all 0.25s;
-            box-shadow: 0 4px 16px rgba(237,137,54,0.4);
+            box-shadow: 0 4px 16px rgba(161,130,40,0.4);
         }
 
         .hero-cta:hover {
             background: var(--color-accent-hover);
             color: #fff;
             transform: translateY(-2px);
-            box-shadow: 0 6px 24px rgba(237,137,54,0.5);
+            box-shadow: 0 6px 24px rgba(161,130,40,0.5);
         }
 
         .hero-cta svg {
@@ -299,8 +317,8 @@
             display: inline-flex;
             align-items: center;
             gap: 6px;
-            background: rgba(255,255,255,0.1);
-            border: 1px solid rgba(255,255,255,0.15);
+            background: rgba(64,180,229,0.12);
+            border: 1px solid rgba(64,180,229,0.25);
             color: rgba(255,255,255,0.9);
             font-size: 0.85rem;
             font-weight: 600;
@@ -458,7 +476,7 @@
 
         .mod-link:hover {
             gap: 10px;
-            color: var(--color-accent);
+            color: var(--color-secondary);
         }
 
         .mod-link svg {
@@ -521,7 +539,7 @@
         }
 
         .contenido-total strong {
-            color: var(--color-accent);
+            color: #e8d48a;
         }
 
         /* ========== Herramientas ========== */
@@ -624,7 +642,7 @@
             display: inline-block;
             height: 6px;
             border-radius: 3px;
-            background: var(--color-secondary);
+            background: var(--color-accent);
             margin-right: 8px;
             vertical-align: middle;
         }
@@ -663,7 +681,7 @@
 
         .instructor-role {
             font-size: 0.95rem;
-            color: var(--color-accent);
+            color: var(--color-secondary);
             font-weight: 600;
             margin-bottom: 20px;
         }
@@ -724,10 +742,11 @@
             padding: 40px 0;
             text-align: center;
             font-size: 0.9rem;
+            border-top: 3px solid var(--color-accent);
         }
 
         .footer a {
-            color: var(--color-accent);
+            color: #e8d48a;
             font-weight: 500;
         }
 
@@ -745,7 +764,7 @@
         .footer-divider {
             width: 40px;
             height: 2px;
-            background: rgba(255,255,255,0.15);
+            background: rgba(161,130,40,0.5);
             margin: 16px auto;
         }
 
@@ -772,11 +791,12 @@
                 top: var(--nav-height);
                 left: 0;
                 right: 0;
-                background: var(--color-primary);
+                background: #002640;
                 flex-direction: column;
                 padding: 16px 24px;
                 gap: 4px;
                 box-shadow: var(--shadow-lg);
+                border-top: 1px solid rgba(64,180,229,0.2);
             }
 
             .nav-links.active {
@@ -855,7 +875,7 @@
     <nav class="navbar" id="navbar">
         <div class="container">
             <a href="#" class="nav-brand">
-                FACES-UC <span>| Ciencia de Datos</span>
+                FACES UCAB <span>| Ciencia de Datos</span>
             </a>
             <button class="nav-toggle" id="navToggle" aria-label="Abrir men&uacute;">
                 <svg viewBox="0 0 24 24"><line x1="3" y1="6" x2="21" y2="6"/><line x1="3" y1="12" x2="21" y2="12"/><line x1="3" y1="18" x2="21" y2="18"/></svg>
@@ -874,11 +894,12 @@
     <!-- ========== Hero ========== -->
     <section class="hero pattern-bg" id="inicio">
         <div class="container hero-content">
+            <img src="https://www.ucab.edu.ve/wp-content/uploads/2019/04/Logo_UCAB_2.png" alt="UCAB &mdash; Universidad Cat&oacute;lica Andr&eacute;s Bello" class="hero-logo">
             <div class="hero-label">Programa de Formaci&oacute;n Docente 2026</div>
             <h1>Ciencia de Datos Aplicada y Business Intelligence</h1>
-            <p class="hero-institution">FACES &mdash; Universidad Catolica Andres Bello (UCAB)</p>
+            <p class="hero-institution">Facultad de Ciencias Econ&oacute;micas y Sociales (FACES)</p>
             <p class="hero-description">
-                Programa de formaci&oacute;n para docentes universitarios que integra Python, Machine Learning y Power BI aplicados a la docencia, investigaci&oacute;n y gesti&oacute;n institucional de FACES-UC.
+                Programa de formaci&oacute;n para docentes universitarios que integra Python, Machine Learning y Power BI aplicados a la docencia, investigaci&oacute;n y gesti&oacute;n institucional de FACES-UCAB.
             </p>
             <a href="#modulos" class="hero-cta">
                 Comenzar
@@ -900,7 +921,7 @@
                 <div class="about-text">
                     <h2 class="section-title">Sobre el Programa</h2>
                     <p>
-                        Este programa est&aacute; dise&ntilde;ado para <strong>docentes universitarios</strong> de las carreras de Econom&iacute;a, Administraci&oacute;n, Contadur&iacute;a y Relaciones Industriales de la Facultad de Ciencias Econ&oacute;micas y Sociales de la Universidad Catolica Andres Bello (UCAB).
+                        Este programa est&aacute; dise&ntilde;ado para <strong>docentes universitarios</strong> de las escuelas de Econom&iacute;a, Administraci&oacute;n Comercial y Ciencias Sociales de la Facultad de Ciencias Econ&oacute;micas y Sociales (FACES) de la Universidad Cat&oacute;lica Andr&eacute;s Bello (UCAB).
                     </p>
                     <p>
                         Su objetivo es desarrollar competencias pr&aacute;cticas en ciencia de datos y Business Intelligence que puedan aplicarse directamente en la <strong>docencia, la investigaci&oacute;n acad&eacute;mica y la gesti&oacute;n universitaria</strong>, utilizando herramientas modernas y datos contextualizados al entorno venezolano y latinoamericano.
@@ -1143,7 +1164,7 @@
     <!-- ========== Footer ========== -->
     <footer class="footer">
         <div class="container">
-            <p>Programa desarrollado por <a href="https://rizo.ma" target="_blank" rel="noopener">Rizoma</a> para FACES-UC</p>
+            <p>Programa desarrollado por <a href="https://rizo.ma" target="_blank" rel="noopener">Rizoma</a> para <a href="https://www.ucab.edu.ve/informacion-institucional/acerca-de-la-universidad/facultades/ciencias-economicas-y-sociales/" target="_blank" rel="noopener">FACES-UCAB</a></p>
             <div class="footer-divider"></div>
             <div class="footer-links">
                 <a href="https://github.com/gonzalezulises/formacion-docente-bi-faces" target="_blank" rel="noopener">
