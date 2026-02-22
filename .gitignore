@@ -45,3 +45,6 @@ desktop.ini
 # Data (large files - keep CSVs under 10MB in repo)
 *.xlsx~
 ~$*.xlsx
+
+# Notebook execution artifacts
+**/exports_power_bi/
