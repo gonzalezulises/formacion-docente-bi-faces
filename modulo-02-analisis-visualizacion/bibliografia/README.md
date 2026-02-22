@@ -201,5 +201,5 @@ Esta sección recopila referencias para análisis exploratorio de datos (EDA), c
 ---
 
 **Última actualización:** Febrero 2026
-**Orientación:** Universidad de Carabobo, FACES
+**Orientación:** Universidad Catolica Andres Bello (UCAB), FACES
 **Contexto:** Formación de docentes en Ciencia de Datos e Inteligencia de Negocios
