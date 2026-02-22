@@ -1,0 +1,201 @@
+docente_id,departamento,genero,edad,antiguedad,dedicacion,formacion,satisfaccion_general,satisfaccion_salarial,satisfaccion_infraestructura,satisfaccion_desarrollo,publicaciones,carga_horaria
+DOC-001,Relaciones Industriales,M,37,9,Contratado,Maestria,3,2,3,3,5,5
+DOC-002,Economia,F,39,11,Medio Tiempo,Maestria,3,2,3,3,4,8
+DOC-003,Estadistica,M,38,17,Medio Tiempo,Doctorado,4,3,3,4,3,7
+DOC-004,Estadistica,M,54,13,Medio Tiempo,Licenciatura,4,2,4,5,1,12
+DOC-005,Relaciones Industriales,F,37,13,Contratado,Maestria,2,1,2,3,2,11
+DOC-006,Administracion,F,48,16,Tiempo Completo,Maestria,3,2,3,4,7,12
+DOC-007,Administracion,M,33,2,Tiempo Completo,Maestria,3,2,2,4,2,7
+DOC-008,Estadistica,M,58,1,Medio Tiempo,Maestria,2,2,2,2,4,7
+DOC-009,Administracion,M,50,1,Medio Tiempo,Licenciatura,4,4,3,4,1,12
+DOC-010,Estadistica,F,28,11,Medio Tiempo,Doctorado,3,2,3,3,2,9
+DOC-011,Estadistica,F,32,27,Contratado,Maestria,4,3,3,3,6,9
+DOC-012,Administracion,F,61,4,Medio Tiempo,Maestria,3,2,2,3,0,10
+DOC-013,Administracion,M,35,40,Contratado,Maestria,4,4,4,4,2,12
+DOC-014,Administracion,M,57,17,Tiempo Completo,Especialidad,3,2,3,2,0,18
+DOC-015,Estadistica,M,54,7,Tiempo Completo,Doctorado,5,5,5,5,0,13
+DOC-016,Contaduria,F,37,14,Contratado,Maestria,5,4,4,5,5,8
+DOC-017,Relaciones Industriales,F,57,21,Contratado,Especialidad,2,1,2,4,1,9
+DOC-018,Administracion,F,33,2,Tiempo Completo,Doctorado,2,2,2,3,1,9
+DOC-019,Contaduria,F,37,7,Tiempo Completo,Doctorado,5,3,4,5,2,13
+DOC-020,Estadistica,M,41,4,Tiempo Completo,Doctorado,4,3,2,4,3,17
+DOC-021,Matematica,M,48,14,Tiempo Completo,Especialidad,3,1,3,3,2,16
+DOC-022,Matematica,M,30,5,Tiempo Completo,Maestria,4,1,4,3,1,9
+DOC-023,Matematica,M,43,36,Tiempo Completo,Doctorado,3,1,2,4,3,19
+DOC-024,Estadistica,F,53,20,Contratado,Maestria,5,4,4,5,6,6
+DOC-025,Estadistica,F,28,5,Tiempo Completo,Doctorado,4,3,3,4,5,16
+DOC-026,Contaduria,M,47,21,Medio Tiempo,Maestria,2,2,2,2,3,4
+DOC-027,Contaduria,F,59,12,Medio Tiempo,Licenciatura,4,4,4,5,0,4
+DOC-028,Administracion,F,45,6,Tiempo Completo,Doctorado,4,3,4,5,3,13
+DOC-029,Administracion,F,43,14,Tiempo Completo,Maestria,1,1,1,1,3,15
+DOC-030,Relaciones Industriales,M,58,17,Tiempo Completo,Maestria,2,2,2,4,4,13
+DOC-031,Estadistica,F,41,16,Medio Tiempo,Maestria,3,2,4,4,4,8
+DOC-032,Administracion,M,53,23,Medio Tiempo,Especialidad,5,4,5,5,1,6
+DOC-033,Administracion,M,54,18,Contratado,Maestria,3,2,2,4,5,13
+DOC-034,Administracion,F,59,2,Contratado,Doctorado,3,2,4,4,0,7
+DOC-035,Contaduria,M,35,10,Tiempo Completo,Maestria,1,1,1,2,2,11
+DOC-036,Relaciones Industriales,M,39,17,Tiempo Completo,Doctorado,4,2,3,3,4,18
+DOC-037,Contaduria,F,61,3,Medio Tiempo,Maestria,3,2,2,4,4,9
+DOC-038,Administracion,M,46,8,Tiempo Completo,Maestria,4,2,3,3,2,13
+DOC-039,Matematica,F,32,3,Tiempo Completo,Doctorado,3,2,3,3,4,13
+DOC-040,Economia,F,45,16,Tiempo Completo,Doctorado,3,3,2,3,2,11
+DOC-041,Contaduria,F,52,23,Medio Tiempo,Licenciatura,1,1,2,3,2,17
+DOC-042,Administracion,M,40,12,Contratado,Doctorado,3,2,1,3,4,15
+DOC-043,Matematica,M,28,14,Medio Tiempo,Maestria,3,3,3,5,2,5
+DOC-044,Administracion,F,56,2,Contratado,Doctorado,2,2,1,3,3,8
+DOC-045,Relaciones Industriales,M,48,4,Medio Tiempo,Maestria,4,4,3,5,3,9
+DOC-046,Estadistica,F,42,23,Tiempo Completo,Especialidad,4,3,5,5,1,9
+DOC-047,Relaciones Industriales,M,45,12,Tiempo Completo,Maestria,4,3,3,4,2,19
+DOC-048,Estadistica,F,45,8,Medio Tiempo,Licenciatura,3,1,2,3,0,12
+DOC-049,Administracion,F,33,1,Medio Tiempo,Especialidad,3,3,3,3,0,8
+DOC-050,Estadistica,F,41,1,Tiempo Completo,Maestria,3,3,2,4,3,19
+DOC-051,Contaduria,M,44,15,Tiempo Completo,Doctorado,4,4,4,4,6,7
+DOC-052,Matematica,F,34,1,Contratado,Maestria,2,2,2,4,4,11
+DOC-053,Estadistica,M,37,24,Tiempo Completo,Doctorado,4,2,3,4,2,9
+DOC-054,Economia,M,49,1,Medio Tiempo,Licenciatura,3,3,1,3,1,11
+DOC-055,Relaciones Industriales,F,43,5,Tiempo Completo,Licenciatura,3,2,3,4,2,17
+DOC-056,Administracion,M,48,12,Medio Tiempo,Maestria,4,2,3,4,3,10
+DOC-057,Matematica,M,44,4,Tiempo Completo,Maestria,5,2,2,4,3,17
+DOC-058,Contaduria,F,28,7,Tiempo Completo,Maestria,4,5,3,5,5,9
+DOC-059,Administracion,F,41,1,Contratado,Doctorado,2,2,2,2,2,9
+DOC-060,Contaduria,F,63,1,Tiempo Completo,Maestria,3,2,3,3,7,11
+DOC-061,Administracion,M,39,1,Contratado,Maestria,4,3,3,3,2,11
+DOC-062,Matematica,M,31,10,Tiempo Completo,Doctorado,2,1,2,3,3,16
+DOC-063,Economia,F,55,12,Tiempo Completo,Doctorado,4,3,3,3,5,18
+DOC-064,Matematica,M,59,3,Contratado,Especialidad,3,3,3,4,1,17
+DOC-065,Administracion,F,51,10,Tiempo Completo,Licenciatura,2,1,2,3,0,12
+DOC-066,Matematica,F,43,11,Tiempo Completo,Doctorado,4,2,3,4,5,21
+DOC-067,Matematica,F,58,13,Contratado,Doctorado,3,2,2,2,5,9
+DOC-068,Administracion,F,51,2,Medio Tiempo,Maestria,3,2,4,3,2,14
+DOC-069,Contaduria,M,53,18,Tiempo Completo,Maestria,5,3,4,5,2,13
+DOC-070,Estadistica,F,58,1,Medio Tiempo,Licenciatura,4,3,4,4,1,4
+DOC-071,Matematica,F,71,1,Tiempo Completo,Licenciatura,4,3,3,4,2,18
+DOC-072,Relaciones Industriales,M,38,5,Contratado,Especialidad,1,2,1,2,1,7
+DOC-073,Matematica,F,39,2,Medio Tiempo,Maestria,1,1,1,2,2,11
+DOC-074,Estadistica,F,55,31,Tiempo Completo,Licenciatura,4,3,3,4,0,13
+DOC-075,Administracion,M,33,2,Tiempo Completo,Maestria,2,1,1,2,5,16
+DOC-076,Economia,F,40,11,Medio Tiempo,Maestria,2,3,3,3,2,6
+DOC-077,Contaduria,M,56,1,Tiempo Completo,Doctorado,3,3,3,4,6,12
+DOC-078,Relaciones Industriales,F,59,14,Contratado,Licenciatura,4,5,4,5,0,8
+DOC-079,Contaduria,F,39,13,Contratado,Doctorado,3,3,1,4,2,8
+DOC-080,Matematica,M,52,2,Medio Tiempo,Doctorado,5,4,3,5,1,8
+DOC-081,Administracion,M,39,9,Contratado,Doctorado,3,2,2,3,2,8
+DOC-082,Contaduria,F,45,10,Tiempo Completo,Doctorado,4,3,3,4,2,12
+DOC-083,Administracion,F,44,14,Tiempo Completo,Maestria,5,4,5,5,2,11
+DOC-084,Contaduria,F,48,9,Tiempo Completo,Especialidad,3,2,2,3,0,13
+DOC-085,Estadistica,F,45,21,Contratado,Maestria,3,2,2,4,5,8
+DOC-086,Relaciones Industriales,F,31,2,Contratado,Maestria,2,2,3,3,4,13
+DOC-087,Economia,F,30,2,Medio Tiempo,Doctorado,1,1,1,1,5,8
+DOC-088,Contaduria,F,50,5,Medio Tiempo,Especialidad,3,2,3,4,0,10
+DOC-089,Contaduria,F,50,2,Tiempo Completo,Maestria,4,3,4,5,6,16
+DOC-090,Estadistica,M,63,1,Contratado,Maestria,3,2,2,3,0,4
+DOC-091,Economia,F,54,1,Tiempo Completo,Maestria,4,4,3,4,4,13
+DOC-092,Economia,F,38,3,Medio Tiempo,Maestria,5,4,5,5,3,7
+DOC-093,Relaciones Industriales,M,48,40,Tiempo Completo,Doctorado,2,1,1,2,3,18
+DOC-094,Matematica,F,51,7,Contratado,Maestria,4,2,3,4,4,12
+DOC-095,Relaciones Industriales,M,32,9,Tiempo Completo,Licenciatura,5,4,3,5,2,8
+DOC-096,Economia,M,34,13,Tiempo Completo,Licenciatura,2,1,2,3,2,15
+DOC-097,Contaduria,M,52,13,Tiempo Completo,Maestria,2,1,2,2,5,17
+DOC-098,Economia,F,35,3,Medio Tiempo,Maestria,2,2,1,4,2,5
+DOC-099,Relaciones Industriales,F,41,7,Tiempo Completo,Doctorado,2,1,1,2,5,14
+DOC-100,Contaduria,F,40,3,Contratado,Doctorado,5,3,4,3,4,11
+DOC-101,Estadistica,M,53,10,Tiempo Completo,Especialidad,3,3,3,3,2,18
+DOC-102,Matematica,M,36,3,Medio Tiempo,Maestria,3,1,2,2,4,13
+DOC-103,Matematica,M,46,1,Tiempo Completo,Maestria,3,2,3,3,2,11
+DOC-104,Estadistica,M,28,7,Medio Tiempo,Maestria,2,1,2,2,9,16
+DOC-105,Relaciones Industriales,F,38,23,Medio Tiempo,Maestria,4,4,4,5,6,13
+DOC-106,Administracion,M,46,12,Tiempo Completo,Especialidad,3,2,4,3,2,19
+DOC-107,Contaduria,M,30,12,Medio Tiempo,Doctorado,3,2,3,4,4,4
+DOC-108,Economia,M,67,2,Tiempo Completo,Maestria,4,4,5,4,3,15
+DOC-109,Matematica,F,46,5,Medio Tiempo,Maestria,3,4,3,4,1,12
+DOC-110,Matematica,M,46,15,Contratado,Licenciatura,4,4,4,5,3,5
+DOC-111,Economia,M,37,22,Contratado,Maestria,3,3,4,5,2,13
+DOC-112,Contaduria,M,37,10,Tiempo Completo,Licenciatura,4,3,4,4,2,17
+DOC-113,Relaciones Industriales,F,54,8,Tiempo Completo,Doctorado,3,2,2,2,4,22
+DOC-114,Estadistica,F,56,8,Tiempo Completo,Maestria,3,2,2,4,3,13
+DOC-115,Contaduria,F,32,4,Tiempo Completo,Maestria,4,4,3,3,2,12
+DOC-116,Relaciones Industriales,F,62,7,Contratado,Maestria,4,4,3,3,3,10
+DOC-117,Estadistica,M,42,2,Contratado,Maestria,5,3,4,5,4,13
+DOC-118,Administracion,M,33,2,Tiempo Completo,Licenciatura,4,2,3,5,2,13
+DOC-119,Relaciones Industriales,M,57,3,Medio Tiempo,Maestria,3,2,3,3,5,8
+DOC-120,Matematica,M,62,16,Tiempo Completo,Especialidad,4,4,4,5,1,13
+DOC-121,Economia,M,44,23,Contratado,Maestria,3,1,3,3,5,10
+DOC-122,Economia,F,57,40,Tiempo Completo,Maestria,3,3,2,3,4,19
+DOC-123,Estadistica,M,41,40,Tiempo Completo,Maestria,3,2,3,4,6,24
+DOC-124,Estadistica,M,51,34,Medio Tiempo,Licenciatura,3,2,3,3,1,14
+DOC-125,Relaciones Industriales,M,52,10,Tiempo Completo,Doctorado,4,3,3,5,2,13
+DOC-126,Contaduria,M,54,1,Tiempo Completo,Doctorado,2,1,2,3,0,14
+DOC-127,Relaciones Industriales,F,42,2,Contratado,Licenciatura,3,2,3,3,1,14
+DOC-128,Economia,F,46,11,Medio Tiempo,Licenciatura,4,3,2,4,1,11
+DOC-129,Economia,F,49,35,Contratado,Licenciatura,4,3,3,4,0,14
+DOC-130,Matematica,F,45,1,Tiempo Completo,Especialidad,4,3,4,5,1,20
+DOC-131,Estadistica,F,62,1,Medio Tiempo,Maestria,4,3,3,4,2,7
+DOC-132,Economia,F,40,3,Tiempo Completo,Especialidad,3,2,4,3,0,12
+DOC-133,Administracion,M,35,7,Medio Tiempo,Especialidad,4,3,4,4,0,8
+DOC-134,Estadistica,M,34,3,Contratado,Licenciatura,5,4,5,5,3,7
+DOC-135,Estadistica,M,49,30,Medio Tiempo,Licenciatura,3,2,2,2,1,13
+DOC-136,Administracion,M,54,1,Medio Tiempo,Maestria,3,3,3,4,1,10
+DOC-137,Administracion,F,53,2,Tiempo Completo,Especialidad,3,3,4,3,4,12
+DOC-138,Contaduria,F,58,1,Tiempo Completo,Licenciatura,3,2,3,3,0,15
+DOC-139,Administracion,F,47,1,Tiempo Completo,Licenciatura,5,4,4,5,2,15
+DOC-140,Administracion,F,36,4,Tiempo Completo,Doctorado,5,3,3,3,4,15
+DOC-141,Economia,M,53,6,Medio Tiempo,Maestria,4,2,2,3,1,9
+DOC-142,Economia,M,28,36,Medio Tiempo,Doctorado,4,3,3,3,3,10
+DOC-143,Relaciones Industriales,F,55,1,Tiempo Completo,Doctorado,4,3,5,5,2,16
+DOC-144,Contaduria,F,36,11,Contratado,Licenciatura,3,2,3,4,2,4
+DOC-145,Matematica,F,40,12,Tiempo Completo,Maestria,2,2,1,1,4,9
+DOC-146,Economia,F,46,11,Tiempo Completo,Especialidad,2,2,1,3,1,17
+DOC-147,Administracion,F,47,5,Tiempo Completo,Maestria,4,3,4,4,1,16
+DOC-148,Matematica,M,52,2,Contratado,Especialidad,2,2,2,4,0,9
+DOC-149,Economia,M,30,15,Tiempo Completo,Licenciatura,3,2,2,3,0,14
+DOC-150,Estadistica,M,56,5,Tiempo Completo,Doctorado,3,3,2,3,7,25
+DOC-151,Contaduria,M,41,6,Tiempo Completo,Doctorado,3,2,2,4,3,12
+DOC-152,Contaduria,M,31,9,Medio Tiempo,Maestria,3,2,3,3,1,7
+DOC-153,Matematica,M,44,2,Contratado,Maestria,3,2,3,3,0,18
+DOC-154,Estadistica,M,42,2,Tiempo Completo,Doctorado,4,3,3,4,3,21
+DOC-155,Matematica,F,63,2,Contratado,Especialidad,2,1,2,2,2,14
+DOC-156,Contaduria,F,32,9,Contratado,Maestria,4,3,2,3,2,9
+DOC-157,Relaciones Industriales,M,45,8,Tiempo Completo,Licenciatura,4,4,4,4,1,13
+DOC-158,Matematica,M,43,9,Contratado,Doctorado,4,4,4,4,2,9
+DOC-159,Matematica,F,55,35,Tiempo Completo,Maestria,4,3,2,3,6,17
+DOC-160,Matematica,M,48,5,Medio Tiempo,Especialidad,2,1,2,3,1,8
+DOC-161,Administracion,M,45,12,Tiempo Completo,Especialidad,4,4,3,4,1,16
+DOC-162,Matematica,F,41,1,Medio Tiempo,Especialidad,3,3,4,4,2,4
+DOC-163,Matematica,F,72,1,Tiempo Completo,Licenciatura,4,2,3,3,0,10
+DOC-164,Relaciones Industriales,M,30,14,Medio Tiempo,Licenciatura,4,4,4,4,1,16
+DOC-165,Relaciones Industriales,M,49,12,Medio Tiempo,Doctorado,2,1,1,3,6,6
+DOC-166,Estadistica,M,44,1,Tiempo Completo,Maestria,2,2,2,2,2,15
+DOC-167,Contaduria,M,45,24,Tiempo Completo,Maestria,3,1,2,3,3,16
+DOC-168,Economia,F,47,10,Contratado,Licenciatura,4,3,3,5,0,5
+DOC-169,Contaduria,F,54,40,Medio Tiempo,Maestria,3,2,3,4,4,9
+DOC-170,Contaduria,F,36,21,Tiempo Completo,Maestria,3,3,3,4,2,5
+DOC-171,Relaciones Industriales,F,55,15,Contratado,Maestria,4,3,4,4,5,13
+DOC-172,Relaciones Industriales,M,56,3,Tiempo Completo,Licenciatura,4,3,3,4,3,15
+DOC-173,Estadistica,M,29,5,Contratado,Maestria,3,3,2,3,1,8
+DOC-174,Estadistica,M,45,34,Tiempo Completo,Maestria,4,3,3,3,5,18
+DOC-175,Economia,M,36,40,Contratado,Especialidad,2,1,2,2,1,5
+DOC-176,Matematica,F,36,31,Tiempo Completo,Doctorado,3,3,3,4,4,20
+DOC-177,Matematica,F,38,7,Tiempo Completo,Licenciatura,4,4,3,5,3,18
+DOC-178,Contaduria,F,44,10,Contratado,Maestria,2,2,2,3,3,9
+DOC-179,Administracion,F,28,7,Medio Tiempo,Doctorado,1,1,1,1,2,15
+DOC-180,Relaciones Industriales,M,57,4,Tiempo Completo,Especialidad,2,2,3,3,0,23
+DOC-181,Administracion,M,29,4,Tiempo Completo,Maestria,3,2,3,4,4,12
+DOC-182,Estadistica,M,51,2,Tiempo Completo,Maestria,5,5,4,5,4,22
+DOC-183,Contaduria,F,56,6,Medio Tiempo,Maestria,4,1,3,4,3,6
+DOC-184,Estadistica,F,50,19,Tiempo Completo,Maestria,3,3,2,3,4,23
+DOC-185,Relaciones Industriales,M,66,2,Medio Tiempo,Licenciatura,2,1,2,3,1,6
+DOC-186,Relaciones Industriales,M,62,16,Medio Tiempo,Especialidad,5,4,4,5,1,13
+DOC-187,Matematica,M,45,39,Medio Tiempo,Especialidad,3,2,3,3,0,11
+DOC-188,Economia,F,42,29,Medio Tiempo,Doctorado,4,3,4,5,3,8
+DOC-189,Estadistica,F,39,10,Contratado,Especialidad,4,3,3,4,1,11
+DOC-190,Estadistica,F,41,3,Medio Tiempo,Especialidad,3,2,3,4,1,5
+DOC-191,Relaciones Industriales,F,40,12,Medio Tiempo,Doctorado,2,2,2,3,3,14
+DOC-192,Administracion,F,36,8,Medio Tiempo,Maestria,4,3,5,4,3,10
+DOC-193,Contaduria,F,49,1,Tiempo Completo,Maestria,4,3,3,4,3,20
+DOC-194,Estadistica,F,46,1,Tiempo Completo,Doctorado,4,2,3,2,3,6
+DOC-195,Relaciones Industriales,M,41,3,Contratado,Especialidad,2,1,1,2,1,6
+DOC-196,Estadistica,F,69,23,Medio Tiempo,Maestria,2,2,1,2,3,13
+DOC-197,Economia,M,47,5,Contratado,Maestria,3,3,3,3,2,9
+DOC-198,Estadistica,M,42,1,Contratado,Licenciatura,2,2,2,3,2,7
+DOC-199,Contaduria,M,48,7,Tiempo Completo,Maestria,4,3,4,4,7,13
+DOC-200,Administracion,F,34,1,Tiempo Completo,Maestria,4,3,3,4,1,13
