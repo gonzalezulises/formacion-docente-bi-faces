@@ -1,87 +1,65 @@
-# Modulo 01: Fundamentos de Ciencia de Datos y Business Intelligence
+# Módulo 01 — Pensar con datos en ciencias sociales y economía
 
-![Duracion](https://img.shields.io/badge/duracion-8_horas-blue)
-![Nivel](https://img.shields.io/badge/nivel-introductorio-green)
-![Sesiones](https://img.shields.io/badge/sesiones-1_y_2-orange)
+**Duración:** 6 horas
+**Facilitador:** Ulises González
 
 ---
 
-## Objetivos de Aprendizaje
+## Descripción
 
-Al completar este modulo, el docente sera capaz de:
+Este módulo introductorio desarrolla el pensamiento estadístico y analítico necesario para trabajar con datos en el contexto de las ciencias sociales y la economía. A diferencia de un enfoque técnico centrado en herramientas, este módulo se enfoca en **conceptos fundamentales**: cómo formular preguntas analíticas, clasificar datos, reconocer sesgos y distinguir entre tipos de análisis.
 
-| Competencia | Descripcion |
-|-------------|-------------|
-| Ecosistema de datos | Distinguir entre analisis descriptivo, predictivo y prescriptivo, e identificar su aplicacion en el contexto universitario |
-| Python basico | Escribir scripts en Python que manipulen variables, listas, diccionarios, y estructuras de control |
-| Jupyter Notebooks | Crear y ejecutar notebooks interactivos combinando codigo, texto y visualizaciones |
-| Pandas introductorio | Cargar, explorar y manipular datos tabulares con Pandas |
-| Etica de datos | Identificar sesgos en datos socioeconomicos y aplicar principios de privacidad y uso responsable |
-| Pensamiento analitico | Disenar estrategias para integrar data literacy en la practica docente universitaria |
+El objetivo es que cada docente pueda "pensar con datos" sobre su propia disciplina antes de aprender herramientas específicas.
+
+---
+
+## Objetivos de aprendizaje
+
+Al completar este módulo, el participante será capaz de:
+
+1. Describir el ciclo de valor de los datos (pregunta → datos → análisis → hallazgo → acción) y aplicarlo a su disciplina
+2. Clasificar variables según su naturaleza y nivel de medición
+3. Identificar sesgos comunes en el análisis de datos sociales (selección, causalidad espuria, supervivencia, sobreajuste ideológico)
+4. Distinguir entre análisis descriptivo, exploratorio, inferencial, predictivo y prescriptivo
+5. Analizar críticamente estudios basados en datos del ámbito social y económico
 
 ---
 
 ## Contenido
 
-### Sesion 1: Python y Jupyter (4h)
+### Notebooks (5)
 
-| # | Notebook | Descripcion | Duracion |
-|---|----------|-------------|----------|
-| 1 | [`01_01_conceptos_jupyter.ipynb`](notebooks/01_01_conceptos_jupyter.ipynb) | Introduccion a Jupyter Notebooks: celdas, markdown, ejecucion, atajos | 45 min |
-| 2 | [`01_02_python_fundamentos.ipynb`](notebooks/01_02_python_fundamentos.ipynb) | Variables, tipos de datos, operaciones, strings, listas, diccionarios, control de flujo, funciones | 2h |
-| 3 | [`01_03_pandas_basico.ipynb`](notebooks/01_03_pandas_basico.ipynb) | DataFrames, lectura de CSV, seleccion, filtrado, operaciones basicas | 1h 15min |
+| Archivo | Tema | Duración |
+|---------|------|:--------:|
+| `notebooks/01_01_ciclo_valor_datos.ipynb` | El ciclo de valor de los datos en FACES | 1h |
+| `notebooks/01_02_datos_ciencias_sociales.ipynb` | Datos en ciencias sociales: tipos y niveles de medición | 1h |
+| `notebooks/01_03_sesgos_falacias.ipynb` | Sesgos y falacias en análisis de datos sociales | 1.5h |
+| `notebooks/01_04_tipos_analisis.ipynb` | Tipos de análisis: descriptivo, exploratorio, inferencial, predictivo, prescriptivo | 1h |
+| `notebooks/01_05_casos_reales.ipynb` | Análisis de casos reales: deserción, inflación, clima organizacional | 1.5h |
 
-**Laboratorios:**
-| # | Lab | Descripcion |
-|---|-----|-------------|
-| 1 | [`lab_01_python_ejercicios.ipynb`](laboratorios/lab_01_python_ejercicios.ipynb) | Ejercicios de Python con datos de contexto universitario (nominas, indicadores) |
-| 2 | [`lab_01_python_soluciones.ipynb`](laboratorios/lab_01_python_soluciones.ipynb) | Soluciones comentadas |
+### Laboratorios (1)
 
-### Sesion 2: Datos, Etica y Pensamiento Analitico (4h)
+| Archivo | Tema | Duración |
+|---------|------|:--------:|
+| `laboratorios/lab_01_traduce_tu_asignatura.ipynb` | Ejercicio guiado: traduce tu asignatura a datos | 45 min |
 
-| # | Notebook | Descripcion | Duracion |
-|---|----------|-------------|----------|
-| 4 | [`01_04_etica_datos_sesgo.ipynb`](notebooks/01_04_etica_datos_sesgo.ipynb) | Etica en BI, sesgos en datos socioeconomicos, privacidad, uso responsable de datos en investigacion y docencia | 1h 30min |
-| 5 | [`01_05_pensamiento_analitico_docente.ipynb`](notebooks/01_05_pensamiento_analitico_docente.ipynb) | Data literacy para docentes: como integrar el pensamiento basado en datos en la ensenanza universitaria | 1h 30min |
+### Bibliografía
 
-**Laboratorios:**
-| # | Lab | Descripcion |
-|---|-----|-------------|
-| 3 | [`lab_02_pandas_ejercicios.ipynb`](laboratorios/lab_02_pandas_ejercicios.ipynb) | Exploracion de datasets FACES con Pandas |
-| 4 | [`lab_02_pandas_soluciones.ipynb`](laboratorios/lab_02_pandas_soluciones.ipynb) | Soluciones comentadas |
+| Archivo | Descripción |
+|---------|-------------|
+| `bibliografia/README.md` | Referencias y recursos complementarios |
 
 ---
 
-## Datasets Utilizados
+## Prerrequisitos
 
-| Dataset | Archivo | Descripcion |
-|---------|---------|-------------|
-| Matricula FACES | [`datasets/universidad/matricula_faces.csv`](../datasets/universidad/matricula_faces.csv) | Datos simulados de inscripcion por carrera, periodo y genero |
-| Rendimiento Academico | [`datasets/universidad/rendimiento_academico.csv`](../datasets/universidad/rendimiento_academico.csv) | Notas, asistencia y factores sociodemograficos |
+Ninguno. Este módulo no requiere conocimientos previos de programación ni estadística. Está diseñado para docentes de todas las carreras de FACES.
 
 ---
 
-## Guias y Recursos
+## Metodología
 
-| Recurso | Archivo | Descripcion |
-|---------|---------|-------------|
-| Python Cheat Sheet | [`guias/python_cheatsheet.pdf`](guias/python_cheatsheet.pdf) | Referencia rapida de sintaxis Python |
-| Jupyter Cheat Sheet | [`guias/jupyter_cheatsheet.pdf`](guias/jupyter_cheatsheet.pdf) | Atajos y funcionalidades de Jupyter |
-
----
-
-## Bibliografia
-
-- Introduccion a Python para Ciencia de Datos (fragmentos seleccionados)
-- Python for Data Analytics (Apress) — capitulos 1-3
-
----
-
-## Prerequisitos
-
-- Ninguno. Este modulo parte de cero.
-- Tener el entorno configurado segun la [guia de setup](../other/setup_checklist.md).
-
----
-
-[Volver al programa principal](../README.md) | [Siguiente: Modulo 02 →](../modulo-02-analisis-visualizacion/README.md)
+- **Conceptual, no técnico**: se prioriza la comprensión sobre la ejecución de código
+- **Basado en casos**: cada concepto se ilustra con ejemplos de Economía, Administración, Contaduría y Relaciones Industriales
+- **Participativo**: los notebooks incluyen ejercicios para completar durante la sesión
+- **Reflexivo**: el laboratorio conecta los conceptos con la práctica docente de cada participante
