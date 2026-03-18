@@ -51,6 +51,7 @@ Programa de formacion dirigido a **docentes universitarios** de las carreras de 
 
 | Modulo | Titulo | Horas | Contenido Clave | Detalle |
 |--------|--------|-------|------------------|---------|
+| 00 | [Preparacion del entorno](modulo-00-preparacion/) *(opcional)* | ~2h | Git, GitHub, Google Colab, Markdown | [README](modulo-00-preparacion/README.md) |
 | 01 | [Pensar con datos en ciencias sociales](modulo-01-fundamentos/) | 6h | Ciclo de valor, sesgos, tipos de analisis, casos reales | [README](modulo-01-fundamentos/README.md) |
 | 02 | [Data Wrangling accesible (Python + SQL)](modulo-02-data-wrangling/) | 8h | Python, Pandas, NumPy, SQL, limpieza de datos | [README](modulo-02-data-wrangling/README.md) |
 | 03 | [Business Intelligence aplicado a decisiones](modulo-03-business-intelligence/) | 10h | Visualizacion, Power BI, Tableau, KPIs, narrativa | [README](modulo-03-business-intelligence/README.md) |
@@ -76,6 +77,7 @@ Docentes de pregrado y posgrado que:
 - Manejo basico de hojas de calculo (Excel/Google Sheets)
 - Nociones de estadistica descriptiva (promedios, varianzas, correlaciones)
 - No se requiere experiencia previa en programacion
+- Si nunca has usado GitHub o Google Colab, completa el [Modulo 00 — Preparacion](modulo-00-preparacion/) antes de iniciar
 
 ### Software necesario
 - [Google Colab](https://colab.research.google.com/) (opcion recomendada — sin instalacion)
@@ -112,6 +114,8 @@ Ver [datasets/README.md](datasets/README.md) para descripcion detallada de cada 
 
 ```
 formacion-docente-bi-faces/
+├── modulo-00-preparacion/          # Entorno (opcional, asincronico, ~2h)
+│   └── recursos/                   # Videos: Git, GitHub, Colab, Markdown
 ├── modulo-01-fundamentos/          # Pensar con datos (Ulises, 6h)
 │   ├── notebooks/                  # 5 notebooks conceptuales
 │   └── laboratorios/               # Lab: Traduce tu asignatura a datos
