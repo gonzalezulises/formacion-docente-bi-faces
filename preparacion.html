@@ -1,0 +1,607 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>M&oacute;dulo 00 &mdash; Preparaci&oacute;n del Entorno</title>
+    <meta name="description" content="Todo lo que necesitas antes de comenzar el programa de formaci&oacute;n docente: GitHub, Google Colab, Markdown y checklist de preparaci&oacute;n.">
+    <link rel="icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><text y='.9em' font-size='90'>&#x1F6E0;</text></svg>">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700;800&family=Open+Sans:wght@400;500;600;700&display=swap" rel="stylesheet">
+    <style>
+        :root {
+            --ucab-navy: #003056;
+            --ucab-blue: #40b4e5;
+            --ucab-gold: #a18228;
+            --ucab-gold-light: #e8d48a;
+            --surface-dark: #0a1628;
+            --surface-mid: #0f1f35;
+            --surface-card: #132740;
+            --surface-light: #f5f8fa;
+            --glass: rgba(255, 255, 255, 0.06);
+            --glass-strong: rgba(255, 255, 255, 0.10);
+            --glass-border: rgba(255, 255, 255, 0.10);
+            --text-primary: #2c3e50;
+            --text-secondary: #6b7c8d;
+            --text-inverse: #ffffff;
+            --font-heading: 'Poppins', -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif;
+            --font-body: 'Open Sans', -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif;
+            --radius: 12px;
+            --radius-lg: 20px;
+            --radius-xl: 28px;
+            --max-width: 1200px;
+            --nav-height: 72px;
+        }
+
+        *, *::before, *::after { margin: 0; padding: 0; box-sizing: border-box; }
+        html { scroll-behavior: smooth; scroll-padding-top: var(--nav-height); }
+        body {
+            font-family: var(--font-body);
+            color: rgba(255, 255, 255, 0.75);
+            line-height: 1.7;
+            background: var(--surface-dark);
+            -webkit-font-smoothing: antialiased;
+            overflow-x: hidden;
+        }
+        img { max-width: 100%; display: block; }
+        a { color: var(--ucab-blue); text-decoration: none; transition: color 0.3s; }
+        a:hover { color: var(--ucab-gold-light); }
+        h1, h2, h3, h4, h5, h6 { font-family: var(--font-heading); }
+
+        /* Scroll Progress */
+        .scroll-progress {
+            position: fixed; top: 0; left: 0; width: 0%; height: 3px;
+            background: linear-gradient(90deg, var(--ucab-blue), var(--ucab-gold-light));
+            z-index: 10000; transition: width 0.1s linear;
+        }
+
+        /* Navbar */
+        .navbar {
+            position: fixed; top: 3px; left: 0; right: 0; z-index: 9000;
+            height: var(--nav-height); display: flex; align-items: center;
+            background: rgba(10, 22, 40, 0.85); backdrop-filter: blur(20px);
+            -webkit-backdrop-filter: blur(20px); box-shadow: 0 4px 30px rgba(0,0,0,0.3);
+        }
+        .navbar .container {
+            max-width: var(--max-width); margin: 0 auto; padding: 0 32px;
+            display: flex; align-items: center; justify-content: space-between; width: 100%;
+        }
+        .nav-brand {
+            font-family: var(--font-heading); font-weight: 700; font-size: 1rem;
+            color: var(--text-inverse); display: flex; align-items: center; gap: 10px;
+        }
+        .nav-brand span { opacity: 0.5; font-weight: 400; }
+        .nav-back {
+            color: rgba(255,255,255,0.65); font-size: 0.875rem; font-weight: 500;
+            padding: 8px 16px; border-radius: 8px; transition: all 0.3s;
+            display: flex; align-items: center; gap: 6px;
+        }
+        .nav-back:hover { color: #fff; background: rgba(64,180,229,0.12); }
+
+        /* Container & Sections */
+        .container { max-width: var(--max-width); margin: 0 auto; padding: 0 32px; }
+        .narrow { max-width: 860px; }
+        section { padding: 80px 0; position: relative; }
+
+        .section-header { text-align: center; margin-bottom: 48px; }
+        .section-number {
+            display: inline-block; font-family: var(--font-heading);
+            background: rgba(64,180,229,0.12); border: 1px solid rgba(64,180,229,0.25);
+            color: var(--ucab-blue); font-size: 0.75rem; font-weight: 600;
+            letter-spacing: 0.08em; text-transform: uppercase;
+            padding: 6px 16px; border-radius: 50px; margin-bottom: 16px;
+        }
+        .section-title {
+            font-size: clamp(1.6rem, 4vw, 2.2rem); font-weight: 800;
+            letter-spacing: -0.03em; margin-bottom: 12px; color: var(--text-inverse);
+        }
+        .section-title.gradient {
+            background: linear-gradient(135deg, var(--ucab-blue), var(--ucab-gold-light));
+            -webkit-background-clip: text; background-clip: text; -webkit-text-fill-color: transparent;
+        }
+        .section-subtitle {
+            font-size: 1rem; max-width: 640px; margin: 0 auto;
+            color: rgba(255,255,255,0.5);
+        }
+
+        /* Hero compact */
+        .hero {
+            position: relative; padding: 140px 24px 80px;
+            display: flex; align-items: center; justify-content: center;
+            text-align: center; overflow: hidden;
+        }
+        .hero-mesh {
+            position: absolute; inset: 0; z-index: 0;
+            background:
+                radial-gradient(ellipse 80% 60% at 20% 30%, rgba(64,180,229,0.25) 0%, transparent 60%),
+                radial-gradient(ellipse 60% 80% at 80% 70%, rgba(161,130,40,0.2) 0%, transparent 55%),
+                radial-gradient(ellipse 90% 50% at 50% 50%, rgba(0,48,86,0.6) 0%, transparent 70%),
+                linear-gradient(160deg, #050d1a 0%, #0a1628 30%, #0f1f35 60%, #0a1628 100%);
+        }
+        .hero-grain {
+            position: absolute; inset: 0; z-index: 1; opacity: 0.035; pointer-events: none;
+            background-image: url("data:image/svg+xml,%3Csvg viewBox='0 0 256 256' xmlns='http://www.w3.org/2000/svg'%3E%3Cfilter id='noise'%3E%3CfeTurbulence type='fractalNoise' baseFrequency='0.9' numOctaves='4' stitchTiles='stitch'/%3E%3C/filter%3E%3Crect width='100%25' height='100%25' filter='url(%23noise)'/%3E%3C/svg%3E");
+            background-repeat: repeat; background-size: 256px 256px;
+        }
+        .hero-content { position: relative; z-index: 2; max-width: 760px; }
+        .hero-label {
+            display: inline-block; font-family: var(--font-heading);
+            background: rgba(161,130,40,0.15); border: 1px solid rgba(161,130,40,0.3);
+            color: var(--ucab-gold-light); font-size: 0.75rem; font-weight: 600;
+            letter-spacing: 0.1em; text-transform: uppercase;
+            padding: 6px 18px; border-radius: 50px; margin-bottom: 20px;
+        }
+        .hero h1 {
+            font-size: clamp(2rem, 6vw, 3.2rem); font-weight: 800; line-height: 1.1;
+            margin-bottom: 12px; letter-spacing: -0.03em;
+            background: linear-gradient(135deg, var(--ucab-blue) 0%, #fff 40%, var(--ucab-gold-light) 100%);
+            -webkit-background-clip: text; background-clip: text; -webkit-text-fill-color: transparent;
+        }
+        .hero-subtitle {
+            font-size: 1.05rem; color: rgba(255,255,255,0.5); font-weight: 500;
+            margin-bottom: 16px; font-family: var(--font-heading);
+        }
+        .hero-description {
+            font-size: 1rem; color: rgba(255,255,255,0.55);
+            max-width: 600px; margin: 0 auto; line-height: 1.7;
+        }
+        .hero::after {
+            content: ''; position: absolute; bottom: 0; left: 0; right: 0; height: 120px;
+            background: linear-gradient(to bottom, transparent, var(--surface-dark));
+            z-index: 1; pointer-events: none;
+        }
+
+        /* Alternating section backgrounds */
+        .section-dark { background: var(--surface-dark); }
+        .section-mid {
+            background: var(--surface-mid);
+            border-top: 1px solid rgba(255,255,255,0.04);
+            border-bottom: 1px solid rgba(255,255,255,0.04);
+        }
+
+        /* Glass card */
+        .glass-card {
+            background: var(--glass); border: 1px solid var(--glass-border);
+            border-radius: var(--radius-lg); padding: 32px;
+            backdrop-filter: blur(12px); -webkit-backdrop-filter: blur(12px);
+            transition: transform 0.35s, box-shadow 0.35s, background 0.35s;
+        }
+        .glass-card:hover {
+            background: var(--glass-strong); transform: translateY(-4px);
+            box-shadow: 0 16px 32px rgba(0,0,0,0.3);
+        }
+
+        /* Prose content */
+        .prose p { margin-bottom: 16px; line-height: 1.8; }
+        .prose strong { color: var(--text-inverse); font-weight: 600; }
+
+        /* Video container */
+        .video-wrapper { margin: 32px 0; }
+        .video-wrapper h4 {
+            color: rgba(255,255,255,0.5); font-size: 0.85rem; font-weight: 500;
+            margin-bottom: 12px; text-transform: uppercase; letter-spacing: 0.05em;
+        }
+        .video-container {
+            position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden;
+            border-radius: var(--radius); border: 1px solid var(--glass-border);
+        }
+        .video-container iframe {
+            position: absolute; top: 0; left: 0; width: 100%; height: 100%;
+            border-radius: var(--radius);
+        }
+
+        /* Steps */
+        .steps { display: flex; flex-direction: column; gap: 16px; margin: 32px 0; }
+        .step {
+            display: flex; align-items: flex-start; gap: 16px;
+            background: var(--glass); border: 1px solid var(--glass-border);
+            border-radius: var(--radius); padding: 20px 24px;
+        }
+        .step-num {
+            flex-shrink: 0; width: 36px; height: 36px; border-radius: 50%;
+            background: linear-gradient(135deg, var(--ucab-blue), var(--ucab-gold));
+            display: flex; align-items: center; justify-content: center;
+            font-family: var(--font-heading); font-weight: 700; font-size: 0.9rem;
+            color: #fff;
+        }
+        .step-text { flex: 1; }
+        .step-text code {
+            background: rgba(64,180,229,0.15); color: var(--ucab-blue);
+            padding: 2px 8px; border-radius: 4px; font-size: 0.88rem;
+        }
+
+        /* Markdown reference table */
+        .ref-table { width: 100%; border-collapse: collapse; margin: 24px 0; }
+        .ref-table th {
+            text-align: left; padding: 14px 20px; font-family: var(--font-heading);
+            font-weight: 600; font-size: 0.85rem; color: var(--ucab-blue);
+            border-bottom: 2px solid rgba(64,180,229,0.2);
+            text-transform: uppercase; letter-spacing: 0.05em;
+        }
+        .ref-table td {
+            padding: 14px 20px; border-bottom: 1px solid rgba(255,255,255,0.06);
+            font-size: 0.95rem;
+        }
+        .ref-table code {
+            background: rgba(64,180,229,0.12); color: var(--ucab-blue);
+            padding: 3px 8px; border-radius: 4px; font-size: 0.88rem;
+        }
+        .ref-table .result { color: var(--text-inverse); }
+
+        /* Checklist */
+        .checklist { display: flex; flex-direction: column; gap: 12px; margin: 32px 0; }
+        .check-item {
+            display: flex; align-items: center; gap: 14px;
+            background: var(--glass); border: 1px solid var(--glass-border);
+            border-radius: var(--radius); padding: 18px 24px;
+            cursor: pointer; transition: all 0.3s; user-select: none;
+        }
+        .check-item:hover { background: var(--glass-strong); }
+        .check-item.checked { border-color: rgba(44,122,75,0.4); background: rgba(44,122,75,0.1); }
+        .check-box {
+            flex-shrink: 0; width: 24px; height: 24px; border-radius: 6px;
+            border: 2px solid rgba(255,255,255,0.2); display: flex;
+            align-items: center; justify-content: center; transition: all 0.3s;
+        }
+        .check-item.checked .check-box {
+            background: #2c7a4b; border-color: #2c7a4b;
+        }
+        .check-box svg { opacity: 0; transition: opacity 0.2s; }
+        .check-item.checked .check-box svg { opacity: 1; }
+        .check-label { flex: 1; font-size: 0.95rem; }
+        .check-item.checked .check-label { color: var(--text-inverse); }
+        .checklist-msg {
+            text-align: center; padding: 20px; font-family: var(--font-heading);
+            font-weight: 600; color: #2c7a4b; font-size: 1.05rem;
+            opacity: 0; transition: opacity 0.5s; margin-top: 8px;
+        }
+        .checklist-msg.visible { opacity: 1; }
+
+        /* Video cards grid */
+        .video-grid { display: grid; grid-template-columns: repeat(2, 1fr); gap: 20px; }
+        .video-card {
+            background: var(--glass); border: 1px solid var(--glass-border);
+            border-radius: var(--radius-lg); overflow: hidden;
+            transition: transform 0.35s, box-shadow 0.35s, background 0.35s;
+            display: block; color: inherit;
+        }
+        .video-card:hover {
+            background: var(--glass-strong); transform: translateY(-4px);
+            box-shadow: 0 16px 32px rgba(0,0,0,0.3); color: inherit;
+        }
+        .video-thumb {
+            position: relative; padding-bottom: 56.25%; background: var(--surface-card);
+            overflow: hidden;
+        }
+        .video-thumb img {
+            position: absolute; top: 0; left: 0; width: 100%; height: 100%;
+            object-fit: cover; opacity: 0.8; transition: opacity 0.3s;
+        }
+        .video-card:hover .video-thumb img { opacity: 1; }
+        .play-icon {
+            position: absolute; top: 50%; left: 50%; transform: translate(-50%,-50%);
+            width: 56px; height: 56px; background: rgba(0,0,0,0.7); border-radius: 50%;
+            display: flex; align-items: center; justify-content: center;
+            border: 2px solid rgba(255,255,255,0.3);
+        }
+        .play-icon svg { width: 22px; height: 22px; fill: #fff; margin-left: 3px; }
+        .video-card-body { padding: 20px; }
+        .video-card-title {
+            font-family: var(--font-heading); font-weight: 600; font-size: 0.95rem;
+            color: var(--text-inverse); margin-bottom: 6px;
+        }
+        .video-card-meta { font-size: 0.82rem; color: rgba(255,255,255,0.4); }
+
+        /* Scroll reveal */
+        .reveal {
+            opacity: 0; transform: translateY(40px);
+            animation: revealIn 0.8s ease forwards;
+            animation-timeline: view(); animation-range: entry 0% entry 40%;
+        }
+        @keyframes revealIn { to { opacity: 1; transform: translateY(0); } }
+        @supports not (animation-timeline: view()) {
+            .reveal { opacity: 1; transform: none; }
+        }
+
+        /* Footer */
+        .footer {
+            background: #060e1a; color: rgba(255,255,255,0.45);
+            padding: 40px 0; text-align: center; font-size: 0.88rem;
+            border-top: 1px solid rgba(255,255,255,0.06);
+        }
+        .footer a { color: var(--ucab-gold-light); font-weight: 500; }
+        .footer a:hover { color: #fff; }
+        .footer-links { display: flex; justify-content: center; gap: 24px; margin-top: 14px; }
+        .footer-divider {
+            width: 40px; height: 2px;
+            background: linear-gradient(90deg, var(--ucab-blue), var(--ucab-gold));
+            margin: 16px auto; border-radius: 1px;
+        }
+
+        /* Responsive */
+        @media (max-width: 768px) {
+            :root { --nav-height: 64px; }
+            .hero { padding: 110px 20px 60px; }
+            .hero h1 { font-size: clamp(1.7rem, 7vw, 2.5rem); }
+            .container { padding: 0 20px; }
+            section { padding: 60px 0; }
+            .glass-card { padding: 24px; }
+            .video-grid { grid-template-columns: 1fr; }
+            .step { padding: 16px 18px; }
+            .ref-table th, .ref-table td { padding: 10px 14px; font-size: 0.88rem; }
+        }
+        @media (max-width: 480px) {
+            .hero h1 { font-size: 1.6rem; }
+            .hero-description { font-size: 0.92rem; }
+            .nav-brand { font-size: 0.88rem; }
+        }
+    </style>
+</head>
+<body>
+    <div class="scroll-progress" id="scrollProgress"></div>
+
+    <!-- Navbar -->
+    <nav class="navbar">
+        <div class="container">
+            <div class="nav-brand">&#x1F4CA; Formaci&oacute;n BI <span>M&oacute;dulo 00</span></div>
+            <a href="index.html" class="nav-back">
+                <svg style="width:16px;height:16px" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M19 12H5M12 19l-7-7 7-7"/></svg>
+                Volver al programa
+            </a>
+        </div>
+    </nav>
+
+    <!-- Hero -->
+    <header class="hero">
+        <div class="hero-mesh"></div>
+        <div class="hero-grain"></div>
+        <div class="hero-content">
+            <div class="hero-label">M&oacute;dulo 00 &mdash; Opcional</div>
+            <h1>Preparaci&oacute;n del Entorno</h1>
+            <p class="hero-subtitle">Asincr&oacute;nico &middot; ~2 horas</p>
+            <p class="hero-description">Todo lo que necesitas saber antes de comenzar el programa. Videos, gu&iacute;as y un checklist para llegar listo.</p>
+        </div>
+    </header>
+
+    <!-- Section 1: GitHub -->
+    <section class="section-dark">
+        <div class="container narrow">
+            <div class="section-header reveal">
+                <div class="section-number">Secci&oacute;n 01</div>
+                <h2 class="section-title gradient">&iquest;Qu&eacute; es GitHub?</h2>
+                <p class="section-subtitle">Donde viven todos los materiales del programa</p>
+            </div>
+            <div class="prose reveal">
+                <p><strong>GitHub es la plataforma donde est&aacute;n organizados todos los materiales del programa</strong>: notebooks, datasets, gu&iacute;as y ejercicios. Piensa en GitHub como una <strong>biblioteca digital</strong> donde puedes explorar carpetas, abrir archivos y ver su contenido directamente en el navegador.</p>
+                <p>La buena noticia es que <strong>no necesitas instalar nada ni crear una cuenta</strong> para acceder al contenido. Todo es p&uacute;blico y visible. Solo necesitas un navegador web actualizado (Chrome, Firefox, Edge o Safari).</p>
+                <p>Tu &uacute;nica tarea es aprender a <strong>navegar carpetas y hacer clic en archivos</strong>. Cada m&oacute;dulo tiene su propia carpeta con subcarpetas para notebooks, laboratorios y recursos. Es tan sencillo como explorar archivos en tu computadora.</p>
+                <p>Los notebooks (archivos <code>.ipynb</code>) tienen un bot&oacute;n azul que dice &ldquo;Open in Colab&rdquo;. Al hacer clic ah&iacute;, se abren directamente en Google Colab, listo para que trabajes.</p>
+            </div>
+            <div class="video-wrapper reveal">
+                <h4>Video recomendado &mdash; 15 min</h4>
+                <div class="video-container">
+                    <iframe width="100%" height="400" src="https://www.youtube-nocookie.com/embed/vlCXdvcgiE0" title="Git y GitHub en 15 minutos" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                </div>
+            </div>
+            <div class="video-wrapper reveal">
+                <h4>Para profundizar &mdash; 40 min</h4>
+                <div class="video-container">
+                    <iframe width="100%" height="400" src="https://www.youtube-nocookie.com/embed/HiXLkL42tMU" title="Git y GitHub desde cero" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Section 2: Google Colab -->
+    <section class="section-mid">
+        <div class="container narrow">
+            <div class="section-header reveal">
+                <div class="section-number">Secci&oacute;n 02</div>
+                <h2 class="section-title gradient">Google Colab &mdash; Tu laboratorio en la nube</h2>
+                <p class="section-subtitle">Escribe y ejecuta c&oacute;digo Python sin instalar nada</p>
+            </div>
+            <div class="prose reveal">
+                <p><strong>Google Colab es un entorno gratuito de Google</strong> para ejecutar c&oacute;digo Python directamente en el navegador. Funciona igual que Google Docs, pero en lugar de escribir documentos, escribes y ejecutas c&oacute;digo.</p>
+                <p><strong>No requiere instalaci&oacute;n.</strong> Todo corre en los servidores de Google, as&iacute; que no importa qu&eacute; tan potente sea tu computadora. Es donde har&aacute;s los laboratorios y entregables del programa.</p>
+                <p>Lo &uacute;nico que necesitas es una <strong>cuenta de Google (Gmail)</strong>. Si ya usas Gmail, YouTube o Google Drive, ya tienes una.</p>
+            </div>
+            <div class="reveal">
+                <h3 style="color:var(--text-inverse);font-size:1.15rem;margin-bottom:20px;font-weight:700">Gu&iacute;a paso a paso</h3>
+                <div class="steps">
+                    <div class="step">
+                        <div class="step-num">1</div>
+                        <div class="step-text">Ve a <a href="https://colab.research.google.com" target="_blank" rel="noopener">colab.research.google.com</a></div>
+                    </div>
+                    <div class="step">
+                        <div class="step-num">2</div>
+                        <div class="step-text">Inicia sesi&oacute;n con tu cuenta de Google</div>
+                    </div>
+                    <div class="step">
+                        <div class="step-num">3</div>
+                        <div class="step-text">En cualquier notebook del curso, haz clic en el badge azul <code>Open in Colab</code></div>
+                    </div>
+                    <div class="step">
+                        <div class="step-num">4</div>
+                        <div class="step-text">Ejecuta celdas con <code>Shift + Enter</code></div>
+                    </div>
+                    <div class="step">
+                        <div class="step-num">5</div>
+                        <div class="step-text">Guarda tu copia: <code>Archivo &rarr; Guardar una copia en Drive</code></div>
+                    </div>
+                </div>
+            </div>
+            <div class="video-wrapper reveal">
+                <h4>Tutorial completo &mdash; 25 min</h4>
+                <div class="video-container">
+                    <iframe width="100%" height="400" src="https://www.youtube-nocookie.com/embed/8VFYs3Ot_aA" title="Google Colab Tutorial Completo" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                </div>
+            </div>
+            <div class="video-wrapper reveal">
+                <h4>Explicaci&oacute;n r&aacute;pida &mdash; 12 min</h4>
+                <div class="video-container">
+                    <iframe width="100%" height="400" src="https://www.youtube-nocookie.com/embed/KajSbrEBgYk" title="Google Colab qu&eacute; es" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Section 3: Markdown -->
+    <section class="section-dark">
+        <div class="container narrow">
+            <div class="section-header reveal">
+                <div class="section-number">Secci&oacute;n 03</div>
+                <h2 class="section-title gradient">Markdown &mdash; Escribir texto con formato</h2>
+                <p class="section-subtitle">El lenguaje simple que usan los notebooks para texto</p>
+            </div>
+            <div class="prose reveal">
+                <p><strong>Markdown es un lenguaje muy sencillo para dar formato al texto</strong> dentro de los notebooks. Lo usar&aacute;s para escribir t&iacute;tulos, listas, negritas y enlaces en las celdas de texto de Colab. No es programaci&oacute;n &mdash; es como escribir en WhatsApp pero con un poco m&aacute;s de estructura.</p>
+            </div>
+            <div class="glass-card reveal" style="overflow-x:auto">
+                <h3 style="color:var(--text-inverse);font-size:1.05rem;margin-bottom:16px;font-weight:700">Referencia r&aacute;pida</h3>
+                <table class="ref-table">
+                    <thead>
+                        <tr><th>Escribes</th><th>Resultado</th></tr>
+                    </thead>
+                    <tbody>
+                        <tr><td><code>**texto**</code></td><td class="result"><strong>negrita</strong></td></tr>
+                        <tr><td><code>*texto*</code></td><td class="result"><em>cursiva</em></td></tr>
+                        <tr><td><code># T&iacute;tulo</code></td><td class="result"><strong style="font-size:1.15em">T&iacute;tulo grande</strong></td></tr>
+                        <tr><td><code>- item</code></td><td class="result">&bull; Lista con vi&ntilde;eta</td></tr>
+                        <tr><td><code>[texto](url)</code></td><td class="result"><a href="#" onclick="return false">Enlace clicable</a></td></tr>
+                    </tbody>
+                </table>
+            </div>
+            <div class="video-wrapper reveal">
+                <h4>Tutorial Markdown &mdash; 20 min</h4>
+                <div class="video-container">
+                    <iframe width="100%" height="400" src="https://www.youtube-nocookie.com/embed/oxaH9CFpeEE" title="Markdown Tutorial" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Section 4: Checklist -->
+    <section class="section-mid">
+        <div class="container narrow">
+            <div class="section-header reveal">
+                <div class="section-number">Secci&oacute;n 04</div>
+                <h2 class="section-title gradient">Checklist de preparaci&oacute;n</h2>
+                <p class="section-subtitle">Marca cada punto a medida que lo completes</p>
+            </div>
+            <div class="checklist reveal" id="checklist">
+                <label class="check-item" onclick="toggleCheck(this)">
+                    <div class="check-box"><svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="#fff" stroke-width="3"><path d="M20 6L9 17l-5-5"/></svg></div>
+                    <span class="check-label">Puedo acceder a internet con un navegador actualizado</span>
+                </label>
+                <label class="check-item" onclick="toggleCheck(this)">
+                    <div class="check-box"><svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="#fff" stroke-width="3"><path d="M20 6L9 17l-5-5"/></svg></div>
+                    <span class="check-label">Tengo una cuenta de Google (Gmail)</span>
+                </label>
+                <label class="check-item" onclick="toggleCheck(this)">
+                    <div class="check-box"><svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="#fff" stroke-width="3"><path d="M20 6L9 17l-5-5"/></svg></div>
+                    <span class="check-label">Puedo abrir Google Colab y ejecutar una celda</span>
+                </label>
+                <label class="check-item" onclick="toggleCheck(this)">
+                    <div class="check-box"><svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="#fff" stroke-width="3"><path d="M20 6L9 17l-5-5"/></svg></div>
+                    <span class="check-label">Puedo guardar una copia de un notebook en mi Google Drive</span>
+                </label>
+                <label class="check-item" onclick="toggleCheck(this)">
+                    <div class="check-box"><svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="#fff" stroke-width="3"><path d="M20 6L9 17l-5-5"/></svg></div>
+                    <span class="check-label">Entiendo qu&eacute; es GitHub y puedo navegar las carpetas del programa</span>
+                </label>
+            </div>
+            <div class="checklist-msg" id="checklistMsg">Si completaste todo, est&aacute;s listo para el M&oacute;dulo 1.</div>
+        </div>
+    </section>
+
+    <!-- Section 5: Videos adicionales -->
+    <section class="section-dark">
+        <div class="container narrow">
+            <div class="section-header reveal">
+                <div class="section-number">Secci&oacute;n 05</div>
+                <h2 class="section-title gradient">Videos adicionales</h2>
+                <p class="section-subtitle">Para quienes quieran profundizar por su cuenta</p>
+            </div>
+            <div class="video-grid reveal">
+                <a href="https://www.youtube.com/watch?v=RGOj5yH7evk" target="_blank" rel="noopener" class="video-card">
+                    <div class="video-thumb">
+                        <img src="https://img.youtube.com/vi/RGOj5yH7evk/hqdefault.jpg" alt="Git and GitHub for Beginners" loading="lazy">
+                        <div class="play-icon"><svg viewBox="0 0 24 24"><polygon points="5,3 19,12 5,21"/></svg></div>
+                    </div>
+                    <div class="video-card-body">
+                        <div class="video-card-title">Git and GitHub for Beginners</div>
+                        <div class="video-card-meta">freeCodeCamp &middot; 1 hora &middot; English</div>
+                    </div>
+                </a>
+                <a href="https://www.youtube.com/watch?v=3GymExBkKjE" target="_blank" rel="noopener" class="video-card">
+                    <div class="video-thumb">
+                        <img src="https://img.youtube.com/vi/3GymExBkKjE/hqdefault.jpg" alt="Git y GitHub curso completo" loading="lazy">
+                        <div class="play-icon"><svg viewBox="0 0 24 24"><polygon points="5,3 19,12 5,21"/></svg></div>
+                    </div>
+                    <div class="video-card-body">
+                        <div class="video-card-title">Git y GitHub &mdash; Curso completo</div>
+                        <div class="video-card-meta">MoureDev &middot; 5 horas &middot; Espa&ntilde;ol</div>
+                    </div>
+                </a>
+                <a href="https://www.youtube.com/watch?v=HW29067qVWk" target="_blank" rel="noopener" class="video-card">
+                    <div class="video-thumb">
+                        <img src="https://img.youtube.com/vi/HW29067qVWk/hqdefault.jpg" alt="Jupyter Notebook Tutorial" loading="lazy">
+                        <div class="play-icon"><svg viewBox="0 0 24 24"><polygon points="5,3 19,12 5,21"/></svg></div>
+                    </div>
+                    <div class="video-card-body">
+                        <div class="video-card-title">Jupyter Notebook Tutorial</div>
+                        <div class="video-card-meta">Corey Schafer &middot; 30 min &middot; English</div>
+                    </div>
+                </a>
+                <a href="https://www.youtube.com/watch?v=RLYoEyIHL6A" target="_blank" rel="noopener" class="video-card">
+                    <div class="video-thumb">
+                        <img src="https://img.youtube.com/vi/RLYoEyIHL6A/hqdefault.jpg" alt="Google Colab for Beginners" loading="lazy">
+                        <div class="play-icon"><svg viewBox="0 0 24 24"><polygon points="5,3 19,12 5,21"/></svg></div>
+                    </div>
+                    <div class="video-card-body">
+                        <div class="video-card-title">Google Colab for Beginners</div>
+                        <div class="video-card-meta">freeCodeCamp &middot; 20 min &middot; English</div>
+                    </div>
+                </a>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <p>Programa para la <a href="https://www.ucab.edu.ve/informacion-institucional/acerca-de-la-universidad/facultades/ciencias-economicas-y-sociales/" target="_blank" rel="noopener">Facultad de Ciencias Econ&oacute;micas y Sociales</a> &mdash; <a href="https://www.ucab.edu.ve" target="_blank" rel="noopener">UCAB</a></p>
+            <div class="footer-divider"></div>
+            <div class="footer-links">
+                <a href="https://github.com/gonzalezulises/formacion-docente-bi-faces" target="_blank" rel="noopener">
+                    <svg style="width:16px;height:16px;vertical-align:middle;margin-right:4px" viewBox="0 0 24 24" fill="currentColor"><path d="M12 0C5.37 0 0 5.37 0 12c0 5.31 3.435 9.795 8.205 11.385.6.105.825-.255.825-.57 0-.285-.015-1.23-.015-2.235-3.015.555-3.795-.735-4.035-1.41-.135-.345-.72-1.41-1.23-1.695-.42-.225-1.02-.78-.015-.795.945-.015 1.62.87 1.845 1.23 1.08 1.815 2.805 1.305 3.495.99.105-.78.42-1.305.765-1.605-2.67-.3-5.46-1.335-5.46-5.925 0-1.305.465-2.385 1.23-3.225-.12-.3-.54-1.53.12-3.18 0 0 1.005-.315 3.3 1.23.96-.27 1.98-.405 3-.405s2.04.135 3 .405c2.295-1.56 3.3-1.23 3.3-1.23.66 1.65.24 2.88.12 3.18.765.84 1.23 1.905 1.23 3.225 0 4.605-2.805 5.625-5.475 5.925.435.375.81 1.095.81 2.22 0 1.605-.015 2.895-.015 3.3 0 .315.225.69.825.57A12.02 12.02 0 0024 12c0-6.63-5.37-12-12-12z"/></svg>
+                    Repositorio en GitHub
+                </a>
+            </div>
+            <p style="margin-top:16px;font-size:0.78rem;opacity:0.5">&copy; 2026 <a href="https://rizo.ma" target="_blank" rel="noopener">Rizoma</a>. Licencia MIT.</p>
+        </div>
+    </footer>
+
+    <script>
+        // Scroll progress
+        window.addEventListener('scroll', function() {
+            var scrollTop = window.scrollY;
+            var docHeight = document.documentElement.scrollHeight - window.innerHeight;
+            var progress = docHeight > 0 ? (scrollTop / docHeight) * 100 : 0;
+            document.getElementById('scrollProgress').style.width = progress + '%';
+        });
+
+        // Checklist
+        function toggleCheck(el) {
+            el.classList.toggle('checked');
+            var items = document.querySelectorAll('.check-item');
+            var allChecked = true;
+            for (var i = 0; i < items.length; i++) {
+                if (!items[i].classList.contains('checked')) { allChecked = false; break; }
+            }
+            document.getElementById('checklistMsg').classList.toggle('visible', allChecked);
+        }
+    </script>
+</body>
+</html>
