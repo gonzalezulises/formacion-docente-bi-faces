@@ -976,6 +976,88 @@
             height: 16px;
         }
 
+        /* ========== Specialist name in module cards ========== */
+        .mod-instructor {
+            font-family: var(--font-heading);
+            font-size: 0.85rem;
+            font-weight: 600;
+            color: var(--ucab-gold-light);
+            margin-top: 4px;
+            margin-bottom: 12px;
+            opacity: 0.85;
+        }
+
+        /* ========== Specialists Grid ========== */
+        .specialists-grid {
+            display: grid;
+            grid-template-columns: repeat(4, 1fr);
+            gap: 20px;
+        }
+
+        .specialist-card {
+            background: var(--glass);
+            border: 1px solid var(--glass-border);
+            border-radius: var(--radius-lg);
+            padding: 32px 24px;
+            text-align: center;
+            backdrop-filter: blur(12px);
+            -webkit-backdrop-filter: blur(12px);
+            transition: transform 0.35s, box-shadow 0.35s, background 0.35s;
+        }
+
+        .specialist-card:hover {
+            background: var(--glass-strong);
+            transform: translateY(-6px);
+            box-shadow: 0 20px 40px rgba(0, 0, 0, 0.3);
+        }
+
+        .specialist-avatar {
+            width: 64px;
+            height: 64px;
+            border-radius: 50%;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            margin: 0 auto 16px;
+            font-family: var(--font-heading);
+            font-weight: 700;
+            font-size: 1.2rem;
+            color: var(--text-inverse);
+        }
+
+        .specialist-name {
+            font-family: var(--font-heading);
+            font-size: 1.1rem;
+            font-weight: 700;
+            color: var(--text-inverse);
+            margin-bottom: 4px;
+        }
+
+        .specialist-module {
+            font-size: 0.82rem;
+            color: rgba(255, 255, 255, 0.5);
+            font-weight: 500;
+            margin-bottom: 12px;
+        }
+
+        .specialist-dates {
+            font-size: 0.78rem;
+            color: rgba(255, 255, 255, 0.4);
+            font-weight: 500;
+        }
+
+        @media (max-width: 900px) {
+            .specialists-grid {
+                grid-template-columns: 1fr 1fr;
+            }
+        }
+
+        @media (max-width: 600px) {
+            .specialists-grid {
+                grid-template-columns: 1fr;
+            }
+        }
+
         /* ========== Rizoma Attribution ========== */
         .made-by {
             background: var(--surface-dark);
@@ -1220,7 +1302,7 @@
                 <li><a href="#modulos">M&oacute;dulos</a></li>
                 <li><a href="#herramientas">Herramientas</a></li>
                 <li><a href="#evaluacion">Evaluaci&oacute;n</a></li>
-                <li><a href="#instructor">Instructor</a></li>
+                <li><a href="#especialistas">Especialistas</a></li>
             </ul>
         </div>
     </nav>
@@ -1232,10 +1314,11 @@
         <div class="hero-content">
             <img src="https://www.ucab.edu.ve/wp-content/uploads/2019/04/Logo_UCAB_2.png" alt="UCAB &mdash; Universidad Cat&oacute;lica Andr&eacute;s Bello" class="hero-logo">
             <div class="hero-label">Programa de Formaci&oacute;n Docente 2026</div>
-            <h1>Ciencia de Datos Aplicada y Business Intelligence</h1>
-            <p class="hero-institution">Facultad de Ciencias Econ&oacute;micas y Sociales (FACES)</p>
+            <h1>Ciencia de Datos y Business Intelligence para Ciencias Sociales</h1>
+            <p class="hero-institution">Facultad de Ciencias Econ&oacute;micas y Sociales (FACES) &mdash; UCAB</p>
             <p class="hero-description">
-                Programa de formaci&oacute;n para docentes universitarios que integra Python, Machine Learning y Power BI aplicados a la docencia, investigaci&oacute;n y gesti&oacute;n institucional de FACES-UCAB.
+                17 de marzo &ndash; 14 de mayo 2026 &nbsp;|&nbsp; Virtual &nbsp;|&nbsp; 6:00 &ndash; 8:00 p.m. (Venezuela)<br>
+                Programa de 32 horas para docentes universitarios: Python, SQL, Power BI y modelos predictivos aplicados a la docencia, investigaci&oacute;n y gesti&oacute;n en FACES-UCAB.
             </p>
             <a href="#modulos" class="hero-cta">
                 Explorar el programa
@@ -1257,12 +1340,12 @@
                     <div class="stat-label">M&oacute;dulos progresivos</div>
                 </div>
                 <div class="stat-card reveal">
-                    <div class="stat-number">18</div>
-                    <div class="stat-label">Notebooks de contenido</div>
+                    <div class="stat-number">4</div>
+                    <div class="stat-label">Especialistas</div>
                 </div>
                 <div class="stat-card reveal">
-                    <div class="stat-number">13</div>
-                    <div class="stat-label">Laboratorios pr&aacute;cticos</div>
+                    <div class="stat-number">18</div>
+                    <div class="stat-label">Notebooks + laboratorios</div>
                 </div>
             </div>
         </div>
@@ -1311,20 +1394,21 @@
         <div class="container">
             <div class="section-header">
                 <h2 class="section-title gradient">M&oacute;dulos del Programa</h2>
-                <p class="section-subtitle light">Cuatro m&oacute;dulos progresivos de 8 horas cada uno, dise&ntilde;ados para construir competencias desde los fundamentos hasta la aplicaci&oacute;n profesional.</p>
+                <p class="section-subtitle light">Cuatro m&oacute;dulos progresivos impartidos por especialistas, dise&ntilde;ados para construir competencias desde el pensamiento anal&iacute;tico hasta la aplicaci&oacute;n profesional.</p>
             </div>
             <div class="modules-bento">
                 <!-- M&oacute;dulo 01 -->
                 <div class="mod-card reveal">
                     <div class="mod-badge">01</div>
-                    <h3>Fundamentos de Ciencia de Datos y BI</h3>
-                    <div class="mod-duration">8 horas &mdash; M&oacute;dulo introductorio</div>
+                    <h3>Pensar con datos en ciencias sociales y econom&iacute;a</h3>
+                    <div class="mod-duration">6 horas &mdash; 24, 26 marzo &amp; 6 abril</div>
+                    <div class="mod-instructor">Ulises Gonz&aacute;lez</div>
                     <ul>
-                        <li>Python: tipos de datos, estructuras y funciones</li>
-                        <li>Jupyter Notebooks como entorno de trabajo</li>
-                        <li>Pandas: carga, exploraci&oacute;n y manipulaci&oacute;n de datos</li>
-                        <li>&Eacute;tica de datos y privacidad en el contexto acad&eacute;mico</li>
-                        <li>Pensamiento anal&iacute;tico y formulaci&oacute;n de preguntas</li>
+                        <li>El ciclo de valor de los datos en FACES: de la pregunta a la decisi&oacute;n</li>
+                        <li>Datos estructurados y no estructurados en ciencias sociales</li>
+                        <li>Sesgos frecuentes: muestras, correlaci&oacute;n vs causalidad</li>
+                        <li>Tipos de an&aacute;lisis: descriptivo, exploratorio, inferencial, predictivo</li>
+                        <li>Formulaci&oacute;n de preguntas anal&iacute;ticas para la docencia</li>
                     </ul>
                     <a href="https://github.com/gonzalezulises/formacion-docente-bi-faces/tree/main/modulo-01-fundamentos/" class="mod-link" target="_blank" rel="noopener">
                         Ver contenido
@@ -1335,14 +1419,15 @@
                 <!-- M&oacute;dulo 02 -->
                 <div class="mod-card reveal">
                     <div class="mod-badge">02</div>
-                    <h3>An&aacute;lisis y Visualizaci&oacute;n de Datos</h3>
-                    <div class="mod-duration">8 horas &mdash; An&aacute;lisis exploratorio</div>
+                    <h3>Data Wrangling accesible (Python + SQL)</h3>
+                    <div class="mod-duration">8 horas &mdash; 7, 9, 13, 14 abril</div>
+                    <div class="mod-instructor">Gabriel G&oacute;mez</div>
                     <ul>
-                        <li>An&aacute;lisis Exploratorio de Datos (EDA) avanzado</li>
-                        <li>SQL: consultas, filtrado y combinaci&oacute;n de datos</li>
-                        <li>Visualizaci&oacute;n con Matplotlib y Seaborn</li>
-                        <li>Power BI: dashboards interactivos y DAX b&aacute;sico</li>
-                        <li>Storytelling con datos: comunicar hallazgos</li>
+                        <li>Python para ciencias sociales: Google Colab y Jupyter</li>
+                        <li>Pandas y NumPy: carga, limpieza y transformaci&oacute;n</li>
+                        <li>Tratamiento de datos faltantes y outliers socioecon&oacute;micos</li>
+                        <li>SQL b&aacute;sico: SELECT, WHERE, GROUP BY, JOIN</li>
+                        <li>Entregable: dataset limpio y documentado para su curso</li>
                     </ul>
                     <a href="https://github.com/gonzalezulises/formacion-docente-bi-faces/tree/main/modulo-02-analisis-visualizacion/" class="mod-link" target="_blank" rel="noopener">
                         Ver contenido
@@ -1353,14 +1438,15 @@
                 <!-- M&oacute;dulo 03 -->
                 <div class="mod-card reveal">
                     <div class="mod-badge">03</div>
-                    <h3>Modelado Predictivo y Machine Learning</h3>
-                    <div class="mod-duration">8 horas &mdash; Modelos y predicci&oacute;n</div>
+                    <h3>Business Intelligence aplicado a decisiones</h3>
+                    <div class="mod-duration">10 horas &mdash; 16, 21, 23, 28, 30 abril</div>
+                    <div class="mod-instructor">Ilda Rojas</div>
                     <ul>
-                        <li>Regresi&oacute;n lineal y log&iacute;stica</li>
-                        <li>Clasificaci&oacute;n con &aacute;rboles de decisi&oacute;n</li>
-                        <li>Clustering: segmentaci&oacute;n no supervisada</li>
-                        <li>Series temporales y predicci&oacute;n</li>
-                        <li>Interpretabilidad con SHAP</li>
+                        <li>Principios de visualizaci&oacute;n eficaz y narrativa con datos</li>
+                        <li>Power BI / Tableau: conexi&oacute;n a datos, medidas y filtros</li>
+                        <li>KPIs para FACES: deserci&oacute;n, rendimiento, empleo, desigualdad</li>
+                        <li>Redise&ntilde;o de dashboards: de lo incorrecto a lo efectivo</li>
+                        <li>Entregable: dashboard prototipo para un curso o problema institucional</li>
                     </ul>
                     <a href="https://github.com/gonzalezulises/formacion-docente-bi-faces/tree/main/modulo-03-modelado-predictivo/" class="mod-link" target="_blank" rel="noopener">
                         Ver contenido
@@ -1371,14 +1457,15 @@
                 <!-- M&oacute;dulo 04 -->
                 <div class="mod-card reveal">
                     <div class="mod-badge">04</div>
-                    <h3>Proyectos Integradores y Aplicaciones</h3>
-                    <div class="mod-duration">8 horas &mdash; Aplicaci&oacute;n profesional</div>
+                    <h3>Modelos predictivos simples y proyecto integrador</h3>
+                    <div class="mod-duration">8 horas &mdash; 5, 7, 12, 14 mayo</div>
+                    <div class="mod-instructor">Ricardo Navarro</div>
                     <ul>
-                        <li>Proyecto aplicado por carrera (4 templates)</li>
-                        <li>Construcci&oacute;n de dashboard integral</li>
-                        <li>Presentaci&oacute;n ejecutiva de resultados</li>
-                        <li>Revisi&oacute;n por pares y retroalimentaci&oacute;n</li>
-                        <li>Integraci&oacute;n de BI en la docencia</li>
+                        <li>Regresi&oacute;n lineal simple y m&uacute;ltiple: interpretaci&oacute;n pr&aacute;ctica</li>
+                        <li>Clasificaci&oacute;n binaria: deserci&oacute;n, morosidad, aprobaci&oacute;n</li>
+                        <li>M&eacute;tricas: accuracy, precision, recall, bondad de ajuste</li>
+                        <li>Flujo completo: importar &rarr; limpiar &rarr; modelar &rarr; comunicar</li>
+                        <li>Proyecto integrador: dise&ntilde;o de proyecto final para su curso</li>
                     </ul>
                     <a href="https://github.com/gonzalezulises/formacion-docente-bi-faces/tree/main/modulo-04-proyectos-integradores/" class="mod-link" target="_blank" rel="noopener">
                         Ver contenido
@@ -1429,24 +1516,19 @@
                         </thead>
                         <tbody>
                             <tr>
-                                <td><strong>Participaci&oacute;n</strong></td>
-                                <td>Laboratorios completados durante cada m&oacute;dulo</td>
-                                <td><div class="eval-bar-wrap"><span class="eval-bar" style="width:40px"></span>20%</div></td>
-                            </tr>
-                            <tr>
-                                <td><strong>Evaluaciones por m&oacute;dulo</strong></td>
-                                <td>Ejercicios entregables al final de cada m&oacute;dulo (1&ndash;3)</td>
-                                <td><div class="eval-bar-wrap"><span class="eval-bar" style="width:60px"></span>30%</div></td>
-                            </tr>
-                            <tr>
-                                <td><strong>Proyecto integrador</strong></td>
-                                <td>Proyecto aplicado a la carrera del docente</td>
+                                <td><strong>Portafolio de an&aacute;lisis de datos</strong></td>
+                                <td>Dataset limpio y documentado + script o notebook con proceso de limpieza y an&aacute;lisis b&aacute;sico</td>
                                 <td><div class="eval-bar-wrap"><span class="eval-bar" style="width:80px"></span>40%</div></td>
                             </tr>
                             <tr>
-                                <td><strong>Revisi&oacute;n por pares</strong></td>
-                                <td>Evaluaci&oacute;n cruzada del proyecto de un colega</td>
-                                <td><div class="eval-bar-wrap"><span class="eval-bar" style="width:20px"></span>10%</div></td>
+                                <td><strong>Dashboard de BI</strong></td>
+                                <td>Dashboard funcional con al menos 3 visualizaciones correctas y explicaci&oacute;n de uso en su curso</td>
+                                <td><div class="eval-bar-wrap"><span class="eval-bar" style="width:60px"></span>30%</div></td>
+                            </tr>
+                            <tr>
+                                <td><strong>Proyecto de curso con modelo</strong></td>
+                                <td>Descripci&oacute;n del proyecto, modelo aplicado (regresi&oacute;n o clasificaci&oacute;n) y r&uacute;brica de evaluaci&oacute;n</td>
+                                <td><div class="eval-bar-wrap"><span class="eval-bar" style="width:60px"></span>30%</div></td>
                             </tr>
                         </tbody>
                     </table>
@@ -1455,28 +1537,37 @@
         </div>
     </section>
 
-    <!-- ========== Instructor ========== -->
-    <section class="instructor-section" id="instructor">
+    <!-- ========== Especialistas ========== -->
+    <section class="instructor-section" id="especialistas">
         <div class="container">
             <div class="section-header">
-                <h2 class="section-title gradient">Instructor</h2>
+                <h2 class="section-title gradient">Especialistas</h2>
+                <p class="section-subtitle light">Cuatro profesionales con experiencia aplicada en ciencia de datos, BI y educaci&oacute;n.</p>
             </div>
-            <div class="instructor-card reveal">
-                <div class="instructor-avatar">UG</div>
-                <h3 class="instructor-name">Ulises Gonz&aacute;lez</h3>
-                <p class="instructor-role">Rizoma</p>
-                <p class="instructor-bio">
-                    Especialista en ciencia de datos y educaci&oacute;n tecnol&oacute;gica en Am&eacute;rica Latina. Desarrolla programas de formaci&oacute;n que combinan rigor anal&iacute;tico con aplicabilidad pr&aacute;ctica, orientados a cerrar la brecha de competencias digitales en instituciones acad&eacute;micas y organizaciones de la regi&oacute;n.
-                </p>
-                <div class="instructor-links">
-                    <a href="https://rizo.ma" class="instructor-link primary" target="_blank" rel="noopener">
-                        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="10"/><line x1="2" y1="12" x2="22" y2="12"/><path d="M12 2a15.3 15.3 0 0 1 4 10 15.3 15.3 0 0 1-4 10 15.3 15.3 0 0 1-4-10 15.3 15.3 0 0 1 4-10z"/></svg>
-                        rizo.ma
-                    </a>
-                    <a href="https://linkedin.com/in/gonzalezulises" class="instructor-link outline" target="_blank" rel="noopener">
-                        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M16 8a6 6 0 0 1 6 6v7h-4v-7a2 2 0 0 0-2-2 2 2 0 0 0-2 2v7h-4v-7a6 6 0 0 1 6-6z"/><rect x="2" y="9" width="4" height="12"/><circle cx="4" cy="4" r="2"/></svg>
-                        LinkedIn
-                    </a>
+            <div class="specialists-grid">
+                <div class="specialist-card reveal">
+                    <div class="specialist-avatar" style="background: linear-gradient(135deg, var(--color-mod1), var(--ucab-navy));">UG</div>
+                    <h3 class="specialist-name">Ulises Gonz&aacute;lez</h3>
+                    <p class="specialist-module">M&oacute;dulo 1 &mdash; Pensar con datos</p>
+                    <p class="specialist-dates">6 h &nbsp;|&nbsp; 24, 26 mar &amp; 6 abr</p>
+                </div>
+                <div class="specialist-card reveal">
+                    <div class="specialist-avatar" style="background: linear-gradient(135deg, var(--color-mod2), var(--ucab-navy));">GG</div>
+                    <h3 class="specialist-name">Gabriel G&oacute;mez</h3>
+                    <p class="specialist-module">M&oacute;dulo 2 &mdash; Data Wrangling</p>
+                    <p class="specialist-dates">8 h &nbsp;|&nbsp; 7, 9, 13, 14 abr</p>
+                </div>
+                <div class="specialist-card reveal">
+                    <div class="specialist-avatar" style="background: linear-gradient(135deg, var(--color-mod3), var(--ucab-navy));">IR</div>
+                    <h3 class="specialist-name">Ilda Rojas</h3>
+                    <p class="specialist-module">M&oacute;dulo 3 &mdash; Business Intelligence</p>
+                    <p class="specialist-dates">10 h &nbsp;|&nbsp; 16, 21, 23, 28, 30 abr</p>
+                </div>
+                <div class="specialist-card reveal">
+                    <div class="specialist-avatar" style="background: linear-gradient(135deg, var(--color-mod4), var(--ucab-navy));">RN</div>
+                    <h3 class="specialist-name">Ricardo Navarro</h3>
+                    <p class="specialist-module">M&oacute;dulo 4 &mdash; Modelos predictivos</p>
+                    <p class="specialist-dates">8 h &nbsp;|&nbsp; 5, 7, 12, 14 may</p>
                 </div>
             </div>
         </div>
