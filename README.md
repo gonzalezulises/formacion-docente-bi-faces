@@ -5,11 +5,20 @@
 **Facultad de Ciencias Economicas y Sociales (FACES) — Universidad Catolica Andres Bello (UCAB)**
 
 ![Status](https://img.shields.io/badge/estado-activo-brightgreen)
-![Modulos](https://img.shields.io/badge/modulos-4-blue)
-![Horas](https://img.shields.io/badge/duracion-32_horas-green)
-![Python](https://img.shields.io/badge/python-3.10+-3776AB?logo=python&logoColor=white)
-![Power BI](https://img.shields.io/badge/Power_BI-F2C811?logo=powerbi&logoColor=black)
+![Modulos](https://img.shields.io/badge/módulos-4-blue)
+![Horas](https://img.shields.io/badge/duración-32_horas-green)
+![Especialistas](https://img.shields.io/badge/especialistas-5-purple)
 ![License](https://img.shields.io/badge/licencia-MIT-brightgreen)
+
+![Python](https://img.shields.io/badge/Python-3.10+-3776AB?style=flat-square&logo=python&logoColor=white)
+![Pandas](https://img.shields.io/badge/Pandas-150458?style=flat-square&logo=pandas&logoColor=white)
+![NumPy](https://img.shields.io/badge/NumPy-013243?style=flat-square&logo=numpy&logoColor=white)
+![Scikit--learn](https://img.shields.io/badge/Scikit--learn-F7931E?style=flat-square&logo=scikitlearn&logoColor=white)
+![Power BI](https://img.shields.io/badge/Power_BI-F2C811?style=flat-square&logo=powerbi&logoColor=black)
+![Tableau](https://img.shields.io/badge/Tableau-E97627?style=flat-square&logo=tableau&logoColor=white)
+![SQLite](https://img.shields.io/badge/SQLite-003B57?style=flat-square&logo=sqlite&logoColor=white)
+![Jupyter](https://img.shields.io/badge/Jupyter-F37626?style=flat-square&logo=jupyter&logoColor=white)
+![Google Colab](https://img.shields.io/badge/Google_Colab-F9AB00?style=flat-square&logo=googlecolab&logoColor=white)
 
 ---
 

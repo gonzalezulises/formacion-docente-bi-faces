@@ -1,7 +1,15 @@
 # Módulo 01 — Pensar con datos en ciencias sociales y economía
 
-**Duración:** 6 horas
-**Facilitador:** Ulises González
+![Duración](https://img.shields.io/badge/duración-6_horas-blue)
+![Nivel](https://img.shields.io/badge/nivel-introductorio-brightgreen)
+![Facilitador](https://img.shields.io/badge/facilitador-Ulises_González-orange)
+![Fechas](https://img.shields.io/badge/fechas-24,_26_mar_&_6_abr-lightgrey)
+
+![Pensamiento Analítico](https://img.shields.io/badge/pensamiento_analítico-2c3e50?style=flat-square)
+![Estadística](https://img.shields.io/badge/estadística_descriptiva-3498db?style=flat-square)
+![Ciencias Sociales](https://img.shields.io/badge/ciencias_sociales-8e44ad?style=flat-square)
+![Sesgos](https://img.shields.io/badge/sesgos_&_falacias-e74c3c?style=flat-square)
+![Casos Reales](https://img.shields.io/badge/casos_reales-27ae60?style=flat-square)
 
 ---
 

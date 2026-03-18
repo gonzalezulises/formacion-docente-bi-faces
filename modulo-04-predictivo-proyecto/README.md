@@ -1,8 +1,16 @@
-# Modulo 4 — Modelos predictivos simples y proyecto integrador
+# Módulo 04 — Modelos predictivos simples y proyecto integrador
 
-**Instructor:** Ricardo Navarro
-**Duracion:** 8 horas (4 sesiones de 2h)
-**Fechas:** 5, 7, 12 y 14 de mayo
+![Duración](https://img.shields.io/badge/duración-8_horas-blue)
+![Nivel](https://img.shields.io/badge/nivel-avanzado-red)
+![Instructor](https://img.shields.io/badge/instructor-Ricardo_Navarro-green)
+![Fechas](https://img.shields.io/badge/fechas-5,_7,_12,_14_may-lightgrey)
+
+![Python](https://img.shields.io/badge/Python-3776AB?style=flat-square&logo=python&logoColor=white)
+![Scikit--learn](https://img.shields.io/badge/Scikit--learn-F7931E?style=flat-square&logo=scikitlearn&logoColor=white)
+![Pandas](https://img.shields.io/badge/Pandas-150458?style=flat-square&logo=pandas&logoColor=white)
+![Regresión](https://img.shields.io/badge/regresión_lineal-2c3e50?style=flat-square)
+![Clasificación](https://img.shields.io/badge/clasificación_binaria-e74c3c?style=flat-square)
+![Statsmodels](https://img.shields.io/badge/Statsmodels-4C72B0?style=flat-square)
 
 ---
 

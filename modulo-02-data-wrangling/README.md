@@ -1,8 +1,16 @@
-# Módulo 2 — Data Wrangling accesible (Python + SQL)
+# Módulo 02 — Data Wrangling accesible (Python + SQL)
 
 ![Duración](https://img.shields.io/badge/duración-8_horas-blue)
 ![Nivel](https://img.shields.io/badge/nivel-intermedio-yellow)
 ![Instructor](https://img.shields.io/badge/instructor-Gabriel_Gómez-green)
+![Fechas](https://img.shields.io/badge/fechas-7,_9,_13,_14_abr-lightgrey)
+
+![Python](https://img.shields.io/badge/Python-3776AB?style=flat-square&logo=python&logoColor=white)
+![Pandas](https://img.shields.io/badge/Pandas-150458?style=flat-square&logo=pandas&logoColor=white)
+![NumPy](https://img.shields.io/badge/NumPy-013243?style=flat-square&logo=numpy&logoColor=white)
+![SQLite](https://img.shields.io/badge/SQLite-003B57?style=flat-square&logo=sqlite&logoColor=white)
+![Jupyter](https://img.shields.io/badge/Jupyter-F37626?style=flat-square&logo=jupyter&logoColor=white)
+![Google Colab](https://img.shields.io/badge/Google_Colab-F9AB00?style=flat-square&logo=googlecolab&logoColor=white)
 
 ---
 

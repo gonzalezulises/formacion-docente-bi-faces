@@ -1,8 +1,16 @@
-# Módulo 3 — Business Intelligence aplicado a decisiones
+# Módulo 03 — Business Intelligence aplicado a decisiones
 
-**Instructora:** Ilda Rojas
-**Duración:** 10 horas (5 sesiones de 2 horas)
-**Fechas:** 16, 21, 23, 28, 30 de abril
+![Duración](https://img.shields.io/badge/duración-10_horas-blue)
+![Nivel](https://img.shields.io/badge/nivel-intermedio-yellow)
+![Instructora](https://img.shields.io/badge/instructora-Ilda_Rojas-green)
+![Fechas](https://img.shields.io/badge/fechas-16,_21,_23,_28,_30_abr-lightgrey)
+
+![Power BI](https://img.shields.io/badge/Power_BI-F2C811?style=flat-square&logo=powerbi&logoColor=black)
+![Tableau](https://img.shields.io/badge/Tableau-E97627?style=flat-square&logo=tableau&logoColor=white)
+![KPIs](https://img.shields.io/badge/KPIs_&_métricas-2c3e50?style=flat-square)
+![Storytelling](https://img.shields.io/badge/storytelling_con_datos-8e44ad?style=flat-square)
+![Dashboards](https://img.shields.io/badge/dashboards-3498db?style=flat-square)
+![DAX](https://img.shields.io/badge/DAX-F2C811?style=flat-square)
 
 ---
 
