@@ -1012,17 +1012,17 @@
         }
 
         .specialist-avatar {
-            width: 64px;
-            height: 64px;
+            width: 88px;
+            height: 88px;
             border-radius: 50%;
-            display: flex;
-            align-items: center;
-            justify-content: center;
             margin: 0 auto 16px;
-            font-family: var(--font-heading);
-            font-weight: 700;
-            font-size: 1.2rem;
-            color: var(--text-inverse);
+            object-fit: cover;
+            border: 3px solid var(--glass-border);
+            transition: border-color 0.3s;
+        }
+
+        .specialist-card:hover .specialist-avatar {
+            border-color: var(--ucab-gold);
         }
 
         .specialist-name {
@@ -1031,6 +1031,15 @@
             font-weight: 700;
             color: var(--text-inverse);
             margin-bottom: 4px;
+        }
+
+        .specialist-name a {
+            color: var(--text-inverse);
+            transition: color 0.3s;
+        }
+
+        .specialist-name a:hover {
+            color: var(--ucab-gold-light);
         }
 
         .specialist-module {
@@ -1044,6 +1053,31 @@
             font-size: 0.78rem;
             color: rgba(255, 255, 255, 0.4);
             font-weight: 500;
+            margin-bottom: 14px;
+        }
+
+        .specialist-linkedin {
+            display: inline-flex;
+            align-items: center;
+            gap: 6px;
+            font-size: 0.78rem;
+            font-weight: 500;
+            color: rgba(255, 255, 255, 0.45);
+            padding: 6px 14px;
+            border-radius: 50px;
+            border: 1px solid var(--glass-border);
+            transition: all 0.3s;
+        }
+
+        .specialist-linkedin:hover {
+            color: #fff;
+            background: rgba(64, 180, 229, 0.12);
+            border-color: rgba(64, 180, 229, 0.3);
+        }
+
+        .specialist-linkedin svg {
+            width: 14px;
+            height: 14px;
         }
 
         @media (max-width: 900px) {
@@ -1546,28 +1580,44 @@
             </div>
             <div class="specialists-grid">
                 <div class="specialist-card reveal">
-                    <div class="specialist-avatar" style="background: linear-gradient(135deg, var(--color-mod1), var(--ucab-navy));">UG</div>
-                    <h3 class="specialist-name">Ulises Gonz&aacute;lez</h3>
+                    <img src="images/especialistas/ulises-gonzalez.jpeg" alt="Ulises Gonz&aacute;lez" class="specialist-avatar">
+                    <h3 class="specialist-name"><a href="https://www.linkedin.com/in/ulisesgonzalez/" target="_blank" rel="noopener">Ulises Gonz&aacute;lez</a></h3>
                     <p class="specialist-module">M&oacute;dulo 1 &mdash; Pensar con datos</p>
                     <p class="specialist-dates">6 h &nbsp;|&nbsp; 24, 26 mar &amp; 6 abr</p>
+                    <a href="https://www.linkedin.com/in/ulisesgonzalez/" class="specialist-linkedin" target="_blank" rel="noopener">
+                        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M16 8a6 6 0 0 1 6 6v7h-4v-7a2 2 0 0 0-2-2 2 2 0 0 0-2 2v7h-4v-7a6 6 0 0 1 6-6z"/><rect x="2" y="9" width="4" height="12"/><circle cx="4" cy="4" r="2"/></svg>
+                        LinkedIn
+                    </a>
                 </div>
                 <div class="specialist-card reveal">
-                    <div class="specialist-avatar" style="background: linear-gradient(135deg, var(--color-mod2), var(--ucab-navy));">GG</div>
-                    <h3 class="specialist-name">Gabriel G&oacute;mez</h3>
+                    <img src="images/especialistas/gabriel-gomez.jpeg" alt="Gabriel G&oacute;mez" class="specialist-avatar">
+                    <h3 class="specialist-name"><a href="https://www.linkedin.com/in/gabriel-gomez-547182b7/" target="_blank" rel="noopener">Gabriel G&oacute;mez</a></h3>
                     <p class="specialist-module">M&oacute;dulo 2 &mdash; Data Wrangling</p>
                     <p class="specialist-dates">8 h &nbsp;|&nbsp; 7, 9, 13, 14 abr</p>
+                    <a href="https://www.linkedin.com/in/gabriel-gomez-547182b7/" class="specialist-linkedin" target="_blank" rel="noopener">
+                        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M16 8a6 6 0 0 1 6 6v7h-4v-7a2 2 0 0 0-2-2 2 2 0 0 0-2 2v7h-4v-7a6 6 0 0 1 6-6z"/><rect x="2" y="9" width="4" height="12"/><circle cx="4" cy="4" r="2"/></svg>
+                        LinkedIn
+                    </a>
                 </div>
                 <div class="specialist-card reveal">
-                    <div class="specialist-avatar" style="background: linear-gradient(135deg, var(--color-mod3), var(--ucab-navy));">IR</div>
-                    <h3 class="specialist-name">Ilda Rojas</h3>
+                    <img src="images/especialistas/ilda-rojas.jpeg" alt="Ilda Rojas" class="specialist-avatar">
+                    <h3 class="specialist-name"><a href="https://www.linkedin.com/in/ilda-rojas/" target="_blank" rel="noopener">Ilda Rojas</a></h3>
                     <p class="specialist-module">M&oacute;dulo 3 &mdash; Business Intelligence</p>
                     <p class="specialist-dates">10 h &nbsp;|&nbsp; 16, 21, 23, 28, 30 abr</p>
+                    <a href="https://www.linkedin.com/in/ilda-rojas/" class="specialist-linkedin" target="_blank" rel="noopener">
+                        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M16 8a6 6 0 0 1 6 6v7h-4v-7a2 2 0 0 0-2-2 2 2 0 0 0-2 2v7h-4v-7a6 6 0 0 1 6-6z"/><rect x="2" y="9" width="4" height="12"/><circle cx="4" cy="4" r="2"/></svg>
+                        LinkedIn
+                    </a>
                 </div>
                 <div class="specialist-card reveal">
-                    <div class="specialist-avatar" style="background: linear-gradient(135deg, var(--color-mod4), var(--ucab-navy));">RN</div>
-                    <h3 class="specialist-name">Ricardo Navarro</h3>
+                    <img src="images/especialistas/ricardo-navarro.jpeg" alt="Ricardo Navarro" class="specialist-avatar">
+                    <h3 class="specialist-name"><a href="https://www.linkedin.com/in/navarroricardoa/" target="_blank" rel="noopener">Ricardo Navarro</a></h3>
                     <p class="specialist-module">M&oacute;dulo 4 &mdash; Modelos predictivos</p>
                     <p class="specialist-dates">8 h &nbsp;|&nbsp; 5, 7, 12, 14 may</p>
+                    <a href="https://www.linkedin.com/in/navarroricardoa/" class="specialist-linkedin" target="_blank" rel="noopener">
+                        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M16 8a6 6 0 0 1 6 6v7h-4v-7a2 2 0 0 0-2-2 2 2 0 0 0-2 2v7h-4v-7a6 6 0 0 1 6-6z"/><rect x="2" y="9" width="4" height="12"/><circle cx="4" cy="4" r="2"/></svg>
+                        LinkedIn
+                    </a>
                 </div>
             </div>
         </div>
