@@ -976,6 +976,70 @@
             height: 16px;
         }
 
+        /* ========== Module 0 Prep Banner ========== */
+        .prep-banner {
+            background: var(--glass);
+            border: 1px solid var(--glass-border);
+            border-radius: var(--radius-lg);
+            padding: 28px 36px;
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            gap: 24px;
+            margin-bottom: 32px;
+            backdrop-filter: blur(12px);
+            -webkit-backdrop-filter: blur(12px);
+            transition: background 0.3s;
+        }
+
+        .prep-banner:hover {
+            background: var(--glass-strong);
+        }
+
+        .prep-banner-content {
+            flex: 1;
+        }
+
+        .prep-banner-label {
+            display: inline-block;
+            font-family: var(--font-heading);
+            font-size: 0.7rem;
+            font-weight: 600;
+            letter-spacing: 0.08em;
+            text-transform: uppercase;
+            color: var(--ucab-gold-light);
+            background: rgba(161, 130, 40, 0.12);
+            border: 1px solid rgba(161, 130, 40, 0.25);
+            padding: 4px 12px;
+            border-radius: 50px;
+            margin-bottom: 10px;
+        }
+
+        .prep-banner h3 {
+            font-size: 1.15rem;
+            font-weight: 700;
+            color: var(--text-inverse);
+            margin-bottom: 6px;
+        }
+
+        .prep-banner p {
+            font-size: 0.88rem;
+            color: rgba(255, 255, 255, 0.5);
+            line-height: 1.6;
+        }
+
+        .prep-banner .mod-link {
+            white-space: nowrap;
+            flex-shrink: 0;
+        }
+
+        @media (max-width: 700px) {
+            .prep-banner {
+                flex-direction: column;
+                text-align: center;
+            }
+        }
+
         /* ========== Specialist name in module cards ========== */
         .mod-instructor {
             font-family: var(--font-heading);
@@ -1434,8 +1498,21 @@
         <div class="container">
             <div class="section-header">
                 <h2 class="section-title gradient">M&oacute;dulos del Programa</h2>
-                <p class="section-subtitle light">Cuatro m&oacute;dulos progresivos impartidos por especialistas, dise&ntilde;ados para construir competencias desde el pensamiento anal&iacute;tico hasta la aplicaci&oacute;n profesional.</p>
+                <p class="section-subtitle light">Un m&oacute;dulo preparatorio opcional y cuatro m&oacute;dulos progresivos impartidos por especialistas, desde el pensamiento anal&iacute;tico hasta la aplicaci&oacute;n profesional.</p>
             </div>
+            <!-- M&oacute;dulo 00 — Preparaci&oacute;n -->
+            <div class="prep-banner reveal">
+                <div class="prep-banner-content">
+                    <span class="prep-banner-label">Opcional &middot; Asincr&oacute;nico</span>
+                    <h3>M&oacute;dulo 00 &mdash; Preparaci&oacute;n del entorno</h3>
+                    <p>Git, GitHub, Google Colab y Markdown &mdash; lo esencial para llegar listo al programa. Videos curados, gu&iacute;as paso a paso y un checklist de verificaci&oacute;n. ~2 horas a tu ritmo.</p>
+                </div>
+                <a href="https://github.com/gonzalezulises/formacion-docente-bi-faces/tree/main/modulo-00-preparacion/" class="mod-link" target="_blank" rel="noopener">
+                    Ver contenido
+                    <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><line x1="5" y1="12" x2="19" y2="12"/><polyline points="12 5 19 12 12 19"/></svg>
+                </a>
+            </div>
+
             <div class="modules-bento">
                 <!-- M&oacute;dulo 01 -->
                 <div class="mod-card reveal">
