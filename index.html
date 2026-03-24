@@ -697,6 +697,54 @@
             height: 16px;
         }
 
+        .mod-classes {
+            margin-top: 12px;
+            padding-top: 12px;
+            border-top: 1px solid rgba(255,255,255,0.1);
+        }
+
+        .mod-classes-label {
+            font-size: 0.75rem;
+            text-transform: uppercase;
+            letter-spacing: 0.05em;
+            color: var(--ucab-gold-light);
+            margin-bottom: 8px;
+            font-weight: 600;
+        }
+
+        .mod-classes-links {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 8px;
+        }
+
+        .mod-class-link {
+            display: inline-flex;
+            align-items: center;
+            gap: 6px;
+            font-size: 0.8rem;
+            padding: 4px 10px;
+            border-radius: 6px;
+            background: rgba(255,255,255,0.08);
+            color: rgba(255,255,255,0.85);
+            text-decoration: none;
+            transition: background 0.2s, color 0.2s;
+        }
+
+        .mod-class-link:hover {
+            background: rgba(255,255,255,0.16);
+            color: #fff;
+        }
+
+        .mod-class-num {
+            font-weight: 700;
+            font-size: 0.7rem;
+            background: var(--ucab-gold);
+            color: var(--surface-dark);
+            padding: 1px 5px;
+            border-radius: 3px;
+        }
+
         /* ========== Tools Section ========== */
         .tools-section {
             background: var(--surface-dark);
@@ -1527,8 +1575,22 @@
                         <li>Tipos de an&aacute;lisis: descriptivo, exploratorio, inferencial, predictivo</li>
                         <li>Formulaci&oacute;n de preguntas anal&iacute;ticas para la docencia</li>
                     </ul>
+                    <div class="mod-classes">
+                        <p class="mod-classes-label">Presentaciones:</p>
+                        <div class="mod-classes-links">
+                            <a href="https://docs.google.com/presentation/d/1QKMzVvOUOjDlnSLDZa42v7F-bf0E9_nTGtPoqd4fAPg/edit?usp=sharing" class="mod-class-link" target="_blank" rel="noopener" title="Clase 01 &mdash; &iquest;C&oacute;mo Funciona la Ciencia de Datos en la Pr&aacute;ctica?">
+                                <span class="mod-class-num">01</span> Ciencia de datos
+                            </a>
+                            <a href="https://docs.google.com/presentation/d/16-83E36R2NTGGa_2lqTcPATrSyhzQzh-lfDPOY4jn-w/edit?usp=sharing" class="mod-class-link" target="_blank" rel="noopener" title="Clase 02 &mdash; Sesgos, Falacias y los Tipos de An&aacute;lisis">
+                                <span class="mod-class-num">02</span> Sesgos y an&aacute;lisis
+                            </a>
+                            <a href="https://docs.google.com/presentation/d/172EJc3yV23aPqjOK4Ck75yegJOWWicI15GFyK9IMhqY/edit?usp=sharing" class="mod-class-link" target="_blank" rel="noopener" title="Clase 03 &mdash; Casos Reales y Proyecto">
+                                <span class="mod-class-num">03</span> Casos y proyecto
+                            </a>
+                        </div>
+                    </div>
                     <a href="https://github.com/gonzalezulises/formacion-docente-bi-faces/tree/main/modulo-01-fundamentos/" class="mod-link" target="_blank" rel="noopener">
-                        Ver contenido
+                        Ver contenido en GitHub
                         <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><line x1="5" y1="12" x2="19" y2="12"/><polyline points="12 5 19 12 12 19"/></svg>
                     </a>
                 </div>
