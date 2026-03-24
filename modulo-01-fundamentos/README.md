@@ -43,9 +43,9 @@ Al completar este módulo, el participante será capaz de:
 
 | Clase | Título | Fecha | Facilitador | Slides | PDF |
 |:-----:|--------|:-----:|:-----------:|:------:|:---:|
-| 01 | ¿Cómo Funciona la Ciencia de Datos en la Práctica? | 24 mar | Ulises González | [Google Slides](https://docs.google.com/presentation/d/172EJc3yV23aPqjOK4Ck75yegJOWWicI15GFyK9IMhqY/edit?usp=sharing) | [PDF](presentaciones/clase01_presentacion.pdf) |
+| 01 | ¿Cómo Funciona la Ciencia de Datos en la Práctica? | 24 mar | Ulises González | [Google Slides](https://docs.google.com/presentation/d/1QKMzVvOUOjDlnSLDZa42v7F-bf0E9_nTGtPoqd4fAPg/edit?usp=sharing) | [PDF](presentaciones/clase01_presentacion.pdf) |
 | 02 | Sesgos, Falacias y los Tipos de Análisis | 26 mar | Fabiola De Benedectis | [Google Slides](https://docs.google.com/presentation/d/16-83E36R2NTGGa_2lqTcPATrSyhzQzh-lfDPOY4jn-w/edit?usp=sharing) | [PDF](presentaciones/clase02_presentacion.pdf) |
-| 03 | Casos Reales y Proyecto: Traduce tu Asignatura a Datos | 6 abr | Ulises González | [Google Slides](https://docs.google.com/presentation/d/1QKMzVvOUOjDlnSLDZa42v7F-bf0E9_nTGtPoqd4fAPg/edit?usp=sharing) | [PDF](presentaciones/clase03_presentacion.pdf) |
+| 03 | Casos Reales y Proyecto: Traduce tu Asignatura a Datos | 6 abr | Ulises González | [Google Slides](https://docs.google.com/presentation/d/172EJc3yV23aPqjOK4Ck75yegJOWWicI15GFyK9IMhqY/edit?usp=sharing) | [PDF](presentaciones/clase03_presentacion.pdf) |
 
 ### Notebooks principales (6)
 
