@@ -75,6 +75,22 @@ Al completar este módulo, el docente será capaz de:
 
 ---
 
+## Materiales del instructor (Gabriel Gómez)
+
+Los materiales originales compartidos por el instructor están en [`materiales-instructor/`](materiales-instructor/README.md), reorganizados por clase con el código extraído en markdown legible (los `.docx` quedan como referencia).
+
+| Sesión | Carpeta | Enfoque |
+|--------|---------|---------|
+| Clase 1 — 7 abr | [`clase-01-limpieza/`](materiales-instructor/clase-01-limpieza/README.md) | Limpieza con Pandas (matrícula FACES + Hipotecas.xlsx) |
+| Clase 2 — 9 abr | [`clase-02-graficos/`](materiales-instructor/clase-02-graficos/README.md) | EDA y visualización (boxplot, IQR, histograma) |
+| Clase 3 — 13 abr | [`clase-03-outliers/`](materiales-instructor/clase-03-outliers/README.md) | Outliers con KNN (PyOD) e Isolation Forest |
+| Clase 4 — 14 abr | [`clase-04-sql/`](materiales-instructor/clase-04-sql/README.md) | Consultas SQL: JOIN, GROUP BY, HAVING, CTE |
+| Actividad integradora | [`actividad-2-pdf/`](materiales-instructor/actividad-2-pdf/README.md) | Lectura de PDF y transformación con diccionario |
+
+Presentación general: [`presentacion_data_wrangling.pptx`](materiales-instructor/presentacion_data_wrangling.pptx). Carpeta de origen en Drive: [Data Wrangling accesible (Python + SQL)](https://drive.google.com/drive/folders/1HR8-Lz9hh-neLj2IAA_9D5pZltyaO5TN).
+
+---
+
 ## Datasets Utilizados
 
 | Dataset | Archivo | Descripción |

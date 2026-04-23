@@ -48,3 +48,7 @@ desktop.ini
 
 # Notebook execution artifacts
 **/exports_power_bi/
+.vercel
+
+# Claude Code local settings
+.claude/
