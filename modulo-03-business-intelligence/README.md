@@ -64,6 +64,16 @@ Directorio `recursos/` disponible para materiales complementarios.
 
 ---
 
+## Materiales del instructor (Ilda Rojas)
+
+Las diapositivas originales compartidas por la instructora están en [`materiales-instructor/`](materiales-instructor/README.md), organizadas por sesión con un `README.md` que resume la agenda y conecta los temas con los notebooks del repo.
+
+| Sesión | Fecha | Carpeta | Enfoque |
+|--------|-------|---------|---------|
+| 03.01 | 16 abr | [`sesion-01-power-bi-fundamentos/`](materiales-instructor/sesion-01-power-bi-fundamentos/README.md) | Fundamentos de Power BI: instalación, historia del BI, visualización, modelado relacional, esquema estrella, cardinalidad |
+
+---
+
 ## Prerequisitos
 
 - **Módulos 1 y 2 completados** (fundamentos de datos y análisis con Python)
