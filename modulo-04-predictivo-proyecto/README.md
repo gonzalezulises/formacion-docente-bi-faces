@@ -73,6 +73,17 @@ modulo-04-predictivo-proyecto/
 
 ---
 
+## Materiales del instructor (Ricardo Navarro)
+
+Las diapositivas y notebooks originales compartidos por el instructor están en [`materiales-instructor/`](materiales-instructor/README.md), organizados por sesión con un `README.md` que resume la agenda y conecta los temas con los notebooks del repo. El instructor estructura su contenido como un curso propio de 4 sesiones; la numeración de abajo es la suya (entre paréntesis, la equivalencia con el programa).
+
+| Sesión | Fecha | Carpeta | Enfoque |
+|--------|-------|---------|---------|
+| Sesión 1 (programa: 7) | 5 may | [`sesion-01-regresion-lineal/`](materiales-instructor/sesion-01-regresion-lineal/README.md) | CRISP-DM, estadística descriptiva e inferencial, EDA, correlación vs. causalidad, regresión lineal simple con `statsmodels` |
+| Sesión 2 (programa: 8) | 7 may | [`sesion-02-regresion-multiple-logistica/`](materiales-instructor/sesion-02-regresion-multiple-logistica/README.md) | Regresión múltiple, R² ajustado, multicolinealidad (VIF), regresión logística (sigmoide), regresión logarítmica, guía del proyecto integrador |
+
+---
+
 ## Prerequisitos
 
 - **Modulos 1, 2 y 3 completados**: este modulo asume dominio de Python/pandas (Modulo 1), analisis exploratorio y visualizacion (Modulo 2), y fundamentos estadisticos (Modulo 3).
